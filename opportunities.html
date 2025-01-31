@@ -31,6 +31,22 @@
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
+
+<script>
+    fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+
+            // Ensure styles apply after insertion
+            let styleLink = document.createElement("link");
+            styleLink.rel = "stylesheet";
+            styleLink.href = "main.css";
+            document.head.appendChild(styleLink);
+        })
+        .catch(error => console.error("Error loading navigation:", error));
+</script>
     <div class="container">
         <h1>Opportunities</h1>
         <p>The Brunaugh Lab is currently open to rotating PhD students following formal acceptance into the University of Michigan Pharmaceutical Sciences PhD program. We do not directly admit students into the lab.</p>
