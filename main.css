@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #FFCB05; /* Michigan Maize */
     text-decoration: none;
     font-weight: bold;
 }
@@ -41,7 +41,7 @@ main {
 /* Footer Styling */
 footer {
     background-color: #00274C;
-    color: white;
+    color: #FFCB05;
     text-align: center;
     padding: 10px;
     position: relative;
