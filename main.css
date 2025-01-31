@@ -9,7 +9,7 @@ body {
 /* Header Styling */
 header {
     background-color: #00274C; /* Michigan Blue */
-    color: #FFCB05; /* Michigan Maize */
+    color: white;
     padding: 10px;
     text-align: center;
 }
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFCB05; /* Michigan Maize */
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
