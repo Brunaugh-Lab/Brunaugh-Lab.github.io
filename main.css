@@ -93,3 +93,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.dropdown-toggle {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    cursor: default; /* Prevents cursor from indicating it's a link */
+}
+
+.dropdown-toggle:hover {
+    background-color: #0056b3; /* Keeps hover styling consistent */
+}
