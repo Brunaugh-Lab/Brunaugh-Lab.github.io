@@ -22,6 +22,22 @@
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
+
+<script>
+    fetch("nav.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("navbar").innerHTML = data;
+
+            // Ensure styles apply after insertion
+            let styleLink = document.createElement("link");
+            styleLink.rel = "stylesheet";
+            styleLink.href = "main.css";
+            document.head.appendChild(styleLink);
+        })
+        .catch(error => console.error("Error loading navigation:", error));
+</script>
     <div class="contact-info">
         <h2>Contact Information</h2>
         <p><strong>Ashlee Brunaugh, PharmD, PhD</strong></p>
