@@ -4,16 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brunaugh Lab</title>
-    <link rel="stylesheet" type ="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation bar */
+        nav {
+            background-color: #00274C; /* Michigan Blue */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Dropdown menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #00274C;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>Brunaugh Lab</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="pi.html">Ashlee D. Brunaugh</a></li>
-                <li><a href="people.html">Lab Members</a></li>
+                <li class="dropdown">
+                    <a href="people.html">Lab Members ▼</a>
+                    <div class="dropdown-content">
+                        <a href="current-members.html">Current Members</a>
+                        <a href="group-pictures.html">Group Pictures</a>
+                        <a href="lab-alumni.html">Lab Alumni</a>
+                    </div>
+                </li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="opportunities.html">Opportunities</a></li>
@@ -21,13 +89,16 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <h2>Welcome to the Brunaugh Lab</h2>
         <p>Our lab focuses on research in <strong>mucosal and respiratory drug delivery</strong>.</p>
         <p>Explore our work and opportunities to join us.</p>
     </main>
+
     <footer>
         <p>&copy; 2024 Brunaugh Lab | University of Michigan</p>
     </footer>
+
 </body>
 </html>
