@@ -38,12 +38,18 @@
     </style>
 </head>
 <body>
-    <div id="navbar"></div>
+   <div id="navbar"></div>
 <script>
     fetch("nav.html")
         .then(response => response.text())
         .then(data => {
             document.getElementById("navbar").innerHTML = data;
+            // Ensure styles apply after insertion
+            let links = document.querySelectorAll("#navbar a");
+            links.forEach(link => {
+                link.style.color = white
+                link.style.fontWeight = "bold";
+            });
         })
         .catch(error => console.error("Error loading navigation:", error));
 </script>
