@@ -8,14 +8,14 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #00274C;
+    background-color: #00274C; /* Michigan Blue */
     color: #FFCB05; /* Michigan Maize */
     padding: 10px;
     text-align: center;
 }
 
 header h1 {
-    color: #FFCB05; /* Michigan Maize */
+    color: white;
 }
 
 /* Navigation Bar */
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFCB05; 
+    color: #FFCB05; /* Michigan Maize */
     text-decoration: none;
     font-weight: bold;
 }
@@ -44,8 +44,8 @@ main {
 
 /* Footer Styling */
 footer {
-    background-color: #00274C;
-    color: #FFCB05;
+    background-color: #222;
+    color: white;
     text-align: center;
     padding: 10px;
     position: relative;
