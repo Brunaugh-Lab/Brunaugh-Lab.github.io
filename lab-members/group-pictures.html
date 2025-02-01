@@ -18,27 +18,39 @@
         h1, p {
             margin-bottom: 20px;
         }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 20px;
-            justify-content: center;
+        .slideshow-container {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
         }
-        .gallery img {
+        .slide {
+            display: none;
+        }
+        .slide img {
             width: 100%;
             height: auto;
             border-radius: 10px;
-            object-fit: cover;
-            transition: transform 0.3s ease-in-out;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
         }
         .caption {
-            font-size: 0.9em;
+            font-size: 1em;
             color: #555;
             margin-top: 5px;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2em;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
         }
     </style>
 </head>
@@ -58,53 +70,82 @@
         <h1>Lab Group Photos</h1>
         <p>We work hard, but we also have fun! Here are some moments from our lab retreats, celebrations, and everyday life.</p>
 
-        <div class="gallery">
-            <div>
+        <div class="slideshow-container">
+            <div class="slide">
                 <img src="images/Escape-room_2023.jpg" alt="Escape Room">
                 <p class="caption">Lab Escape Room Challenge (2023)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Grace-Nish-bday_2023.jpg" alt="Grace & Nish Birthday">
                 <p class="caption">Grace & Nish Birthday Celebration (2023)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Grace-winter-party_2023.jpg" alt="Grace's Winter Party">
                 <p class="caption">Cookie Decorating Contest at our Winter Party (2023)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Winter-party_2023.jpg" alt="Winter Party">
                 <p class="caption">Winter Party (2023)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Barbie-day_2023.jpg" alt="Barbie Day 2023">
                 <p class="caption">Barbie Day 2023</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Lab-meeting_2024.jpg" alt="Lab Meeting 2024">
                 <p class="caption">Lab Meeting (2024)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Ashlee-bday_2024.jpg" alt="Ashlee's Birthday Celebration">
                 <p class="caption">Ashlee's Birthday Celebration (2024)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Nuz-bday_2024.jpg" alt="Nuz's Birthday">
                 <p class="caption">Nuz's Birthday and Mercy's Going Away Party (2024)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Summer-party_2024.jpg" alt="Summer Party">
                 <p class="caption">Lab Summer Party (2024)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Summer-party-Nuz-cornhole_2024.jpg" alt="Summer Party Cornhole">
                 <p class="caption">Summer Party - Brunaugh Lab Cornhole (2024)</p>
             </div>
-            <div>
+            <div class="slide">
                 <img src="images/Summer-party-sparklers-2_2024.jpg" alt="Sparklers at Summer Party">
                 <p class="caption">Summer Party - Sparklers (2024)</p>
             </div>
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
         </div>
     </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+
+        function changeSlide(n) {
+            let slides = document.getElementsByClassName("slide");
+            slideIndex += n;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            if (slideIndex < 1) { slideIndex = slides.length; }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
 
 </body>
 </html>
