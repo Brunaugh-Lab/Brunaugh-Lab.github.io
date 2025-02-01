@@ -173,3 +173,39 @@ footer {
         height: auto;
     }
 }
+/* Mobile-friendly navbar */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Show hamburger menu on mobile */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #00274C;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+    }
+}
