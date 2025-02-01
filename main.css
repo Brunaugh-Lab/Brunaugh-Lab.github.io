@@ -200,3 +200,7 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* Remove the downward triangle */
+.dropdown-toggle::after {
+    content: none !important;
+}
