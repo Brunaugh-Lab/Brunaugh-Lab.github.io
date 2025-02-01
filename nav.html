@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul id="menu">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
@@ -23,7 +23,11 @@
 <script>
     function toggleMenu() {
         var menu = document.getElementById("menu");
-        menu.classList.toggle("active");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
     }
 </script>
 
