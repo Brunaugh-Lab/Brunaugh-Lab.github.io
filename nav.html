@@ -24,12 +24,19 @@
     function toggleMenu() {
         var menu = document.getElementById("menu");
         menu.classList.toggle("active");
+
+        // Ensure menu resets when switching between mobile and desktop
+        if (window.innerWidth >= 769) {
+            menu.classList.remove("active");
+        }
     }
 
-    function toggleDropdown() {
-        var dropdown = document.getElementById("dropdown-menu");
-        dropdown.classList.toggle("show");
-    }
+    window.addEventListener("resize", function() {
+        var menu = document.getElementById("menu");
+        if (window.innerWidth >= 769) {
+            menu.classList.remove("active");
+        }
+    });
 </script>
 
 <style>
