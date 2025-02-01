@@ -1,10 +1,11 @@
 <nav>
     <div class="nav-container">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul id="menu">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
             <li class="dropdown">
-                <span class="dropdown-toggle">Lab Members ▼</span>
+                <span class="dropdown-toggle" onclick="toggleDropdown()">Lab Members ▼</span>
                 <div class="dropdown-content">
                     <a href="/lab-members/current-members.html">Current Members</a>
                     <a href="/lab-members/group-pictures.html">Group Pictures</a>
