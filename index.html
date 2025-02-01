@@ -58,6 +58,16 @@
             })
             .catch(error => console.error("Error loading navigation:", error));
     </script>
+    
+    <script>
+    function toggleMenu() {
+        document.getElementById("menu").classList.toggle("show");
+    }
+
+    function toggleDropdown() {
+        document.querySelector(".dropdown").classList.toggle("show");
+    }
+    </script>
 
     <main class="container">
         <h1>Welcome to the Brunaugh Lab</h1>
@@ -68,6 +78,7 @@
     <footer>
         <p>&copy; 2024 Brunaugh Lab | University of Michigan</p>
     </footer>
-
+    
 </body>
 </html>
+
