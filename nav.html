@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-container">
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-        <ul id="menu" class="hidden">
+        <ul id="menu">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
             <li class="dropdown">
@@ -85,10 +85,10 @@
         position: relative;
     }
 
-    /* Fix footer from overlapping */
-    footer {
-        position: relative;
-        bottom: 0;
-        width: 100%;
+    /* Ensure menu is visible on desktop */
+    @media (min-width: 769px) {
+        nav ul {
+            display: flex !important;
+        }
     }
 </style>
