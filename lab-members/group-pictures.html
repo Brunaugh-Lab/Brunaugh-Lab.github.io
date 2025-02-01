@@ -84,6 +84,16 @@
             .catch(error => console.error("Error loading navigation:", error));
     </script>
 
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+
+        function toggleDropdown() {
+            document.querySelector(".dropdown").classList.toggle("show");
+        }
+    </script>
+
     <div class="container">
         <h1>Lab Group Photos</h1>
         <p>We work hard, but we also have fun! Here are some moments from our lab retreats, celebrations, and everyday life.</p>
