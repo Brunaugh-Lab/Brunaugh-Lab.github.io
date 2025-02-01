@@ -1,7 +1,7 @@
 <nav>
     <div class="nav-container">
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-        <ul id="menu">
+        <ul id="menu" class="hidden">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
             <li class="dropdown">
@@ -56,60 +56,39 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        width: 100%;
+        background-color: #00274C;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    nav ul.active {
         display: flex;
     }
 
     nav ul li {
-        margin: 0 10px;
+        text-align: center;
+        padding: 10px 0;
     }
 
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
+    .dropdown-content {
+        position: relative;
+        display: none;
     }
 
-    /* Mobile View */
-    @media (max-width: 768px) {
-        .menu-toggle {
-            display: block;
-        }
+    .dropdown-content.show {
+        display: block;
+        position: relative;
+    }
 
-        nav ul {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            background-color: #00274C;
-            position: absolute;
-            top: 50px;
-            left: 0;
-            z-index: 1000;
-        }
-
-        nav ul.active {
-            display: flex;
-        }
-
-        nav ul li {
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        .dropdown-content {
-            position: relative;
-            display: none;
-        }
-
-        .dropdown-content.show {
-            display: block;
-            position: relative;
-        }
-
-        /* Fix footer from overlapping */
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+    /* Fix footer from overlapping */
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 </style>
