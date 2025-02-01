@@ -1,12 +1,11 @@
 <nav>
     <div class="nav-container">
-        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul id="menu">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
             <li class="dropdown">
-                <span class="dropdown-toggle" onclick="toggleDropdown()">Lab Members ▼</span>
-                <div class="dropdown-content" id="dropdown-menu">
+                <span class="dropdown-toggle">Lab Members ▼</span>
+                <div class="dropdown-content">
                     <a href="/lab-members/current-members.html">Current Members</a>
                     <a href="/lab-members/group-pictures.html">Group Pictures</a>
                     <a href="/lab-members/lab-alumni.html">Lab Alumni</a>
@@ -19,83 +18,3 @@
         </ul>
     </div>
 </nav>
-
-<script>
-    function toggleMenu() {
-        var menu = document.getElementById("menu");
-        menu.classList.toggle("active");
-
-        // Ensure menu resets when switching between mobile and desktop
-        if (window.innerWidth >= 769) {
-            menu.classList.remove("active");
-        }
-    }
-
-    window.addEventListener("resize", function() {
-        var menu = document.getElementById("menu");
-        if (window.innerWidth >= 769) {
-            menu.classList.remove("active");
-        }
-    });
-</script>
-
-<style>
-    /* Mobile-friendly navbar */
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #00274C;
-        padding: 10px;
-    }
-
-    .menu-toggle {
-        display: block;
-        font-size: 24px;
-        color: white;
-        cursor: pointer;
-        padding: 5px 10px;
-        border: none;
-        background: none;
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: none; /* Hide menu by default */
-        flex-direction: column;
-        width: 100%;
-        background-color: #00274C;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        z-index: 1000;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    nav ul li {
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .dropdown-content {
-        position: relative;
-        display: none;
-    }
-
-    .dropdown-content.show {
-        display: block;
-        position: relative;
-    }
-
-    /* Ensure menu is visible on desktop */
-    @media (min-width: 769px) {
-        nav ul {
-            display: flex !important;
-        }
-    }
-</style>
