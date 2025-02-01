@@ -1,18 +1,89 @@
 <nav>
-    <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
-        <li class="dropdown">
-            <span class="dropdown-toggle">Lab Members ▼</span>
-            <div class="dropdown-content">
-                <a href="/lab-members/current-members.html">Current Members</a>
-                <a href="/lab-members/group-pictures.html">Group Pictures</a>
-                <a href="/lab-members/lab-alumni.html">Lab Alumni</a>
-            </div>
-        </li>
-        <li><a href="/research.html">Research</a></li>
-        <li><a href="/publications.html">Publications</a></li>
-        <li><a href="/opportunities.html">Opportunities</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <ul id="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
+            <li class="dropdown">
+                <span class="dropdown-toggle">Lab Members ▼</span>
+                <div class="dropdown-content">
+                    <a href="/lab-members/current-members.html">Current Members</a>
+                    <a href="/lab-members/group-pictures.html">Group Pictures</a>
+                    <a href="/lab-members/lab-alumni.html">Lab Alumni</a>
+                </div>
+            </li>
+            <li><a href="/research.html">Research</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/opportunities.html">Opportunities</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </div>
 </nav>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+    }
+</script>
+
+<style>
+    /* Mobile-friendly navbar */
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #00274C;
+        padding: 10px;
+    }
+
+    .menu-toggle {
+        display: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Mobile View */
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: block;
+        }
+
+        nav ul {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: #00274C;
+            position: absolute;
+            top: 50px;
+            left: 0;
+        }
+
+        nav ul.active {
+            display: flex;
+        }
+
+        nav ul li {
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+</style>
