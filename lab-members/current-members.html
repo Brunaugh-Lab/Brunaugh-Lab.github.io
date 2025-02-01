@@ -8,30 +8,55 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 40px;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            padding: 50px;
         }
-        h1 {
-            font-size: 2em;
+        h1, h2 {
             margin-bottom: 20px;
         }
-        .coming-soon {
-            font-size: 1.5em;
+        .member-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .member-card {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .member-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .member-card h3 {
+            margin: 5px 0;
+        }
+        .member-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .publications a {
+            color: #0056b3;
+            text-decoration: none;
             font-weight: bold;
-            color: #777;
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+
     <div id="navbar"></div>
     <script>
-        fetch("/nav.html")
+        fetch("../nav.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("navbar").innerHTML = data;
@@ -40,9 +65,76 @@
     </script>
     
     <div class="container">
-        <h1>Current Members</h1>
-        <p class="coming-soon">Coming Soon...</p>
+        <h1>Meet Our Team</h1>
+
+        <h2>Postdoctoral Researchers</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="../images/member1.jpg" alt="Member Name">
+                <h3>Dr. Jane Doe</h3>
+                <p>PhD, University of X</p>
+                <p>Research Focus: Targeted drug delivery in the respiratory tract</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+            <div class="member-card">
+                <img src="../images/member2.jpg" alt="Member Name">
+                <h3>Dr. John Smith</h3>
+                <p>PhD, University of Y</p>
+                <p>Research Focus: Mucosal immunology and inhaled vaccines</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+        </div>
+
+        <h2>PhD Students</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="../images/member3.jpg" alt="Member Name">
+                <h3>Emily Brown</h3>
+                <p>M.S., University of Z</p>
+                <p>Research Focus: Nanoparticle-based drug delivery</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+            <div class="member-card">
+                <img src="../images/member4.jpg" alt="Member Name">
+                <h3>Michael Lee</h3>
+                <p>B.S., University of A</p>
+                <p>Research Focus: Controlled-release formulations</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+        </div>
+
+        <h2>Master’s Students</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="../images/member5.jpg" alt="Member Name">
+                <h3>Sarah White</h3>
+                <p>B.S., University of B</p>
+                <p>Research Focus: Biocompatible drug carriers</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+        </div>
+
+        <h2>Undergraduate Researchers</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="../images/member6.jpg" alt="Member Name">
+                <h3>David Kim</h3>
+                <p>Undergraduate, University of C</p>
+                <p>Research Focus: Microfluidics for drug transport</p>
+                <p class="publications"><a href="#">Publications</a></p>
+            </div>
+        </div>
+
+        <h2>Lab Staff</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="../images/member7.jpg" alt="Member Name">
+                <h3>Anna Wilson</h3>
+                <p>Lab Manager</p>
+                <p>Expertise: Regulatory compliance and lab safety</p>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
-
