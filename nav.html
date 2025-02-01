@@ -5,8 +5,8 @@
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pi.html">Ashlee D. Brunaugh</a></li>
             <li class="dropdown">
-                <span class="dropdown-toggle">Lab Members ▼</span>
-                <div class="dropdown-content">
+                <span class="dropdown-toggle" onclick="toggleDropdown()">Lab Members ▼</span>
+                <div class="dropdown-content" id="dropdown-menu">
                     <a href="/lab-members/current-members.html">Current Members</a>
                     <a href="/lab-members/group-pictures.html">Group Pictures</a>
                     <a href="/lab-members/lab-alumni.html">Lab Alumni</a>
@@ -23,11 +23,12 @@
 <script>
     function toggleMenu() {
         var menu = document.getElementById("menu");
-        if (menu.style.display === "block") {
-            menu.style.display = "none";
-        } else {
-            menu.style.display = "block";
-        }
+        menu.classList.toggle("active");
+    }
+
+    function toggleDropdown() {
+        var dropdown = document.getElementById("dropdown-menu");
+        dropdown.classList.toggle("show");
     }
 </script>
 
@@ -82,6 +83,7 @@
             position: absolute;
             top: 50px;
             left: 0;
+            z-index: 1000;
         }
 
         nav ul.active {
@@ -98,9 +100,16 @@
             display: none;
         }
 
-        .dropdown:hover .dropdown-content {
+        .dropdown-content.show {
             display: block;
             position: relative;
+        }
+
+        /* Fix footer from overlapping */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     }
 </style>
