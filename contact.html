@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Information</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
         .contact-info {
             max-width: 400px;
@@ -15,37 +28,48 @@
             border: 1px solid #ccc;
             border-radius: 8px;
             background-color: #f9f9f9;
+            text-align: left;
         }
         h2 {
             color: #333;
+        }
+        /* Footer Styling */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: auto;
         }
     </style>
 </head>
 <body>
     <div id="navbar"></div>
-
-<script>
-    fetch("nav.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById("navbar").innerHTML = data;
-
-            // Ensure styles apply after insertion
-            let styleLink = document.createElement("link");
-            styleLink.rel = "stylesheet";
-            styleLink.href = "main.css";
-            document.head.appendChild(styleLink);
-        })
-        .catch(error => console.error("Error loading navigation:", error));
-</script>
-    <div class="contact-info">
-        <h2>Contact Information</h2>
-        <p><strong>Ashlee Brunaugh, PharmD, PhD</strong></p>
-        <p>Office: 428 Church Street</p>
-        <p>3002 Pharm</p>
-        <p>Ann Arbor, MI 48109-1065</p>
-        <p>Phone: 734-647-9910</p>
-        <p>Email: <a href="mailto:brunaugh@umich.edu">brunaugh@umich.edu</a></p>
+    <script>
+        fetch("nav.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar").innerHTML = data;
+            })
+            .catch(error => console.error("Error loading navigation:", error));
+    </script>
+    
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Ashlee Brunaugh, PharmD, PhD</strong></p>
+            <p>Office: 428 Church Street</p>
+            <p>3002 Pharm</p>
+            <p>Ann Arbor, MI 48109-1065</p>
+            <p>Phone: 734-647-9910</p>
+            <p>Email: <a href="mailto:brunaugh@umich.edu">brunaugh@umich.edu</a></p>
+        </div>
     </div>
+    <footer>
+        <p>&copy; 2024 Brunaugh Lab | University of Michigan</p>
+    </footer>
 </body>
 </html>
