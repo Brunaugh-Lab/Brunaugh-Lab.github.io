@@ -54,6 +54,16 @@
             })
             .catch(error => console.error("Error loading navigation:", error));
     </script>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+
+        function toggleDropdown() {
+            document.querySelector(".dropdown").classList.toggle("show");
+        }
+    </script>
     
     <div class="container">
         <h1>Research</h1>
