@@ -7,6 +7,11 @@ permalink: /research/mucus-barrier-modulation/
 
 [← Back to Research](/research/)
 
+<figure class="research-figure">
+  <img src="/images/research/saline-hydration-rar.png" alt="Real-time non-contact measurement of mucus elastic modulus changes in response to osmotic agents showing dose-dependent barrier remodeling tracked by resonant acoustic rheometry.">
+  <figcaption>Real-time, non-contact tracking of mucus elastic modulus changes in response to osmotic agents, showing dose-dependent barrier remodeling measured by resonant acoustic rheometry.</figcaption>
+</figure>
+
 ## The Problem
 
 Airway mucus is conventionally treated as an obstacle to drug delivery — something to penetrate, disrupt, or circumvent. But mucus is also a protective barrier whose integrity is essential for host defense. Strategies that destroy mucus structure to improve drug transport may compromise the very system that keeps the airway safe from infection.
@@ -25,4 +30,4 @@ Rather than treating mucus as a passive obstacle, we investigate strategies to t
 
 ## Who Works on This
 
-This project involves Rahela Zaman (mucus transport and barrier remodeling), Grace Xia (mucus viscoelasticity in nasal delivery), and connects to the [Barrier Cartography](/research/barrier-cartography/) program for measurement support.
+This project involves Nishant Shah (RAR-based mucus mechanics and osmotic modulation studies), Rahela Zaman (mucus transport and barrier remodeling), Grace Xia (mucus viscoelasticity in nasal delivery), and connects to the [Barrier Cartography](/research/barrier-cartography/) program for measurement support.
