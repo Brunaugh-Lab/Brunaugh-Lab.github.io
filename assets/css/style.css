@@ -312,8 +312,11 @@ li { margin-bottom: 0.35rem; }
   text-align: center;
 }
 .research-figure img {
-  max-width: 100%;
+  max-width: 600px;
+  width: 100%;
   height: auto;
+  margin: 0 auto;
+  display: block;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--gray-200);
