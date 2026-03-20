@@ -34,6 +34,11 @@ We organize our work in three layers:
 *Biological environments as structured energy landscapes*
 {: .pillar-subtitle}
 
+<figure class="research-figure">
+  <img src="/images/research/synergy-mechanism-schematic.png" alt="Schematic of colistin and niclosamide mechanisms of resistance and synergy in Gram-negative bacteria, showing how membrane charge and permeability govern drug fate.">
+  <figcaption>Colistin and niclosamide exploit complementary mechanisms at the Gram-negative membrane, but transport constraints in vivo can uncouple the co-exposure window that synergy requires.</figcaption>
+</figure>
+
 Every barrier we study — mucus, biofilm matrix, caseous tissue — is a spatially heterogeneous energy landscape with wells (trapping sites where drugs accumulate), barriers (exclusion zones that block transport), and channels (permissive paths that direct flow). The topology of this landscape determines what gets through, and that topology varies on length scales that matter for therapeutic outcomes.
 
 Critically, these landscapes are not static. Mucin networks relax and rearrange. Biofilm matrices grow and erode. The landscape a drug encounters at the start of its transit may be different from the one it encounters at the end. Whether a drug experiences a time-averaged landscape or gets trapped in a frozen configuration depends on a timescale competition: how fast does the network rearrange relative to how fast the drug moves?
@@ -49,6 +54,11 @@ This is why bulk-averaged measurements — mean viscosity, average charge densit
 *Cross-domain formulation engineering*
 {: .pillar-subtitle}
 
+<figure class="research-figure">
+  <img src="/images/research/nic-col-graphical-abstract.png" alt="Graphical abstract showing colistin-stabilized antisolvent precipitation strategy for engineering niclosamide-colistin composite inhalation powders.">
+  <figcaption>Colistin-stabilized antisolvent precipitation enables engineering of microcrystalline niclosamide into inhalable composite powders — an example of cross-domain design where one drug serves simultaneously as the synergistic partner and the crystallization excipient.</figcaption>
+</figure>
+
 Every material choice in a drug delivery system propagates consequences across multiple physical domains simultaneously. A polymer in an inhaled particle is not just a glass stabilizer — it is also a surface energy modifier, a dissolution rate controller, a moisture barrier, and a matrix interaction partner. All at once, all the time, whether or not the designer is paying attention.
 
 Our formulation design practice starts by mapping the full consequence space of a material or process choice across every relevant domain — from manufacturing through storage through biological fate — before making that choice. We look for the regions of design space where multiple domains are simultaneously satisfied, not because of compromise, but because the physics demands it.
@@ -56,6 +66,11 @@ Our formulation design practice starts by mapping the full consequence space of 
 This approach produces formulations that conventional sequential optimization would never find: inhaled dry powders where one drug simultaneously serves as the synergistic partner and the crystallization excipient; composite particles whose shell polymer controls release kinetics, enhances intracellular pharmacology, and shields against matrix adsorption through a single architecture; amorphous solid dispersions whose stability, dissolution, and transport behavior are governed by the same molecular property.
 
 We engineer across spray drying, milling, antisolvent precipitation, and amorphous solid dispersion platforms — always with the transport environment as the design constraint.
+
+<figure class="research-figure">
+  <img src="/images/research/composite-particles.jpg" alt="Scanning electron micrograph of spray-dried niclosamide-colistin composite particles showing wrinkled, collapsed morphology.">
+  <figcaption>Spray-dried niclosamide–colistin composite particles. The wrinkled, collapsed morphology reflects the interplay between shell formation kinetics and internal solvent evaporation during particle engineering.</figcaption>
+</figure>
 
 </div>
 
@@ -65,6 +80,11 @@ We engineer across spray drying, milling, antisolvent precipitation, and amorpho
 
 *Instruments and models at the governing scale*
 {: .pillar-subtitle}
+
+<figure class="research-figure">
+  <img src="/images/research/mucin-diffusion-mismatch.png" alt="Mucin selectively impairs niclosamide diffusion while colistin passes freely, demonstrating how standard assays miss barrier-driven spatial decoupling of drug synergy.">
+  <figcaption>Mucin selectively impairs niclosamide diffusion while colistin passes freely — standard synergy assays miss this barrier-driven spatial decoupling entirely.</figcaption>
+</figure>
 
 Standard pharmacological assays are designed for convenience, not fidelity. Checkerboard synergy tests assume uniform, static drug exposure — conditions that never exist in a mucus-lined airway. Franz cell diffusion strips away the barrier structure that governs transport. Bulk rheology averages over the spatial heterogeneity that determines selectivity.
 
