@@ -24,7 +24,7 @@
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
 
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 16px; scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: var(--font-sans);
@@ -32,6 +32,8 @@ body {
   line-height: 1.7;
   background: #fff;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
 }
 
 .container {
@@ -416,10 +418,15 @@ li { margin-bottom: 0.35rem; }
 }
 
 /* --- Alumni Table --- */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1rem;
+}
 .alumni-table {
   width: 100%;
+  min-width: 600px;
   border-collapse: collapse;
-  margin-top: 1rem;
   font-size: 0.95rem;
 }
 .alumni-table th {
