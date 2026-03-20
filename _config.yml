@@ -1,0 +1,18 @@
+title: Brunaugh Lab
+description: >-
+  Respiratory drug delivery and barrier science lab at the
+  University of Michigan College of Pharmacy.
+url: "https://brunaugh-lab.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+plugins:
+  - jekyll-seo-tag

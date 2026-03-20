@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="container nav-container">
+    <a href="{{ '/' | relative_url }}" class="site-logo">Brunaugh Lab</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research' %}class="active"{% endif %}>Research</a>
+      <a href="{{ '/people/' | relative_url }}" {% if page.url contains '/people' %}class="active"{% endif %}>People</a>
+      <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a>
+      <a href="{{ '/opportunities/' | relative_url }}" {% if page.url contains '/opportunities' %}class="active"{% endif %}>Opportunities</a>
+      <a href="{{ '/pi/' | relative_url }}" {% if page.url contains '/pi' %}class="active"{% endif %}>Ashlee D. Brunaugh</a>
+      <a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact' %}class="active"{% endif %}>Contact</a>
+    </nav>
+  </div>
+</header>
+<script>
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  var nav = document.getElementById('site-nav');
+  var expanded = this.getAttribute('aria-expanded') === 'true';
+  this.setAttribute('aria-expanded', !expanded);
+  nav.classList.toggle('open');
+});
+</script>
