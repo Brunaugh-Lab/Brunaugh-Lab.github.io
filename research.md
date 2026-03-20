@@ -1,15 +1,29 @@
 ---
 layout: page
 title: Research
-subtitle: Understanding how complex biological environments govern the fate of therapeutics
+subtitle: Understanding how complex biological environments shape the fate of therapeutics
 permalink: /research/
 ---
 
-Most drug delivery research focuses on getting therapeutics to the right organ. Our lab studies what happens after arrival — how complex biological environments actively shape whether a drug works or fails.
+Drug delivery research typically asks: how do we get a therapeutic to the right organ? We ask a different question: **what happens to it when it arrives?**
 
-Airway mucus, microbial biofilms, and necrotic lesions are not passive conduits. They adsorb drugs reversibly and saturably, creating hidden sinks that collapse local concentration, break synergistic drug combinations, and erode efficacy in ways that conventional pharmacokinetic models don't capture. Understanding these interactions — and designing around them — is the central challenge of our research program.
+The environments where inhaled drugs must act — airway mucus, microbial biofilms, necrotic granulomas — are not passive backgrounds. They are spatially structured energy landscapes, built from charge fields, polymer meshes, and hydrophobic domains, that actively sort, trap, and redistribute molecules based on their physicochemical identity. A drug entering these environments doesn't simply diffuse to its target. It is adsorbed into wells, excluded by barriers, and channeled along paths of least resistance — and the topology of that landscape, not the deposited dose, determines whether the drug works.
 
-We are based in the Department of Pharmaceutical Sciences at the University of Michigan College of Pharmacy.
+This insight organizes everything we do. Our lab develops the physical theory, the measurement platforms, and the engineered interventions needed to understand and exploit drug–barrier interactions in complex biological systems.
+
+---
+
+## How We Think: Three Layers
+
+Our research is built on a conviction: **the same underlying physics governs outcomes across seemingly different problems.** A molecule navigating a mucin gel, a drug pair traversing an infected airway, and an antibiotic penetrating a biofilm are all instances of the same problem — a perturbation propagating through a structured medium, where the outcome depends on the competition between the timescale of the perturbation and the timescales of the medium's response.
+
+We organize our work in three layers:
+
+**The laws.** We identify the physical principles — timescale competitions, energy landscape topology, influence reach — that determine outcomes independent of any particular system. When two antibiotics must arrive at a bacterial membrane within the same time window to achieve synergy, the governing physics is a timescale competition: does the co-exposure window persist long enough for the combined mechanism to act? When a cationic drug enters a polyanionic mucin gel, the governing physics is landscape navigation: the electrostatic field sorts it into wells and channels that determine how far it penetrates. These principles are not analogies. They are shared mathematics.
+
+**The measurements.** Universal laws are only useful if we can measure the parameters they require — at the spatial and temporal scale where heterogeneity governs outcomes. Bulk rheology averages over the very structure that determines transport. Standard checkerboard synergy assays strip away the environmental complexity that governs whether synergy survives in vivo. We build experimental platforms that preserve biological complexity while resolving the physics at the scale where it matters.
+
+**The interventions.** When you understand the landscape and the timescale competitions, intervention becomes landscape engineering: reshape wells, lower barriers, open channels, bias timescale ratios. We don't simply optimize dose. We design formulations, particles, and molecular strategies that deliberately reshape the physical environment to favor the therapeutic outcome.
 
 ---
 
@@ -17,72 +31,67 @@ We are based in the Department of Pharmaceutical Sciences at the University of M
 
 ## The Barrier Problem
 
-*Why delivery to the lung isn't enough*
+*Biological environments as structured energy landscapes*
 {: .pillar-subtitle}
 
-The environments where inhaled drugs must act — mucus layers, bacterial biofilms, caseous granulomas — are not inert matrices. They are chemically and structurally complex materials that interact with drugs through reversible, saturable adsorption. These interactions create spatial heterogeneity in drug distribution: some regions are flooded while others are starved, even when total deposited dose appears adequate.
+Every barrier we study — mucus, biofilm matrix, caseous tissue — is a spatially heterogeneous energy landscape with wells (trapping sites where drugs accumulate), barriers (exclusion zones that block transport), and channels (permissive paths that direct flow). The topology of this landscape determines what gets through, and that topology varies on length scales that matter for therapeutic outcomes.
 
-This matters because many therapeutic strategies depend on maintaining drug concentrations above a critical threshold — particularly antibiotic combinations whose synergy requires both agents to arrive at the infection site within a specific concentration window. When the barrier selectively sequesters one drug, synergy collapses even if both drugs were delivered at the "right" dose.
+Critically, these landscapes are not static. Mucin networks relax and rearrange. Biofilm matrices grow and erode. The landscape a drug encounters at the start of its transit may be different from the one it encounters at the end. Whether a drug experiences a time-averaged landscape or gets trapped in a frozen configuration depends on a timescale competition: how fast does the network rearrange relative to how fast the drug moves?
 
-Our lab maps these drug–barrier interactions to understand how mucus composition, biofilm architecture, and tissue pathology govern the spatial and temporal fate of therapeutics.
+This is why bulk-averaged measurements — mean viscosity, average charge density, overall partition coefficient — consistently fail to predict transport in biological systems. The landscape's spatial structure at the scale of transport is what determines outcomes, and we are working to resolve it.
 
-<div class="pillar-approaches">
-<strong>Key approaches:</strong> FRAP-based diffusion measurement, mucus transport modeling, physiologically informed in vitro drug exposure systems
-</div>
 </div>
 
 <div class="pillar" markdown="1">
 
-## Engineering Around the Barrier
+## Designing Around the Barrier
 
-*Formulation and particle design informed by barrier physics*
+*Cross-domain formulation engineering*
 {: .pillar-subtitle}
 
-Once you understand what the barrier does to a drug, you can design formulations that work with — or strategically against — those interactions. Our particle engineering program develops inhaled dry powders, amorphous solid dispersions, and multi-component particles whose release profiles, surface chemistry, and spatial structure are deliberately tuned to the environments where they must perform.
+Every material choice in a drug delivery system propagates consequences across multiple physical domains simultaneously. A polymer in an inhaled particle is not just a glass stabilizer — it is also a surface energy modifier, a dissolution rate controller, a moisture barrier, and a matrix interaction partner. All at once, all the time, whether or not the designer is paying attention.
 
-This includes designing solid-state forms (crystalline, amorphous, co-amorphous) that control dissolution kinetics in mucus-lined airways, engineering multi-drug particles that co-localize synergistic antibiotics at the site of infection, and developing excipient strategies that stabilize fragile molecules while enhancing transport through biological barriers.
+Our formulation design practice starts by mapping the full consequence space of a material or process choice across every relevant domain — from manufacturing through storage through biological fate — before making that choice. We look for the regions of design space where multiple domains are simultaneously satisfied, not because of compromise, but because the physics demands it.
 
-We approach particle engineering not as an isolated formulation exercise, but as the physical implementation of a transport strategy.
+This approach produces formulations that conventional sequential optimization would never find: inhaled dry powders where one drug simultaneously serves as the synergistic partner and the crystallization excipient; composite particles whose shell polymer controls release kinetics, enhances intracellular pharmacology, and shields against matrix adsorption through a single architecture; amorphous solid dispersions whose stability, dissolution, and transport behavior are governed by the same molecular property.
 
-<div class="pillar-approaches">
-<strong>Key approaches:</strong> spray drying, milling, amorphous solid dispersion design, multi-component particle engineering, solid-state characterization (DSC, FTIR, IGC)
-</div>
+We engineer across spray drying, milling, antisolvent precipitation, and amorphous solid dispersion platforms — always with the transport environment as the design constraint.
+
 </div>
 
 <div class="pillar" markdown="1">
 
 ## Measuring What Matters
 
-*New platforms for studying drug fate in complex environments*
+*Instruments and models at the governing scale*
 {: .pillar-subtitle}
 
-Standard pharmacological assays — checkerboard synergy tests, Franz cell diffusion, simple dissolution — strip away the environmental complexity that governs drug behavior in vivo. We build experimental systems that preserve it.
+Standard pharmacological assays are designed for convenience, not fidelity. Checkerboard synergy tests assume uniform, static drug exposure — conditions that never exist in a mucus-lined airway. Franz cell diffusion strips away the barrier structure that governs transport. Bulk rheology averages over the spatial heterogeneity that determines selectivity.
 
-Our lab develops physiologically informed in vitro platforms that incorporate realistic mucus composition, dynamic drug exposure, and spatially heterogeneous barriers into measurements of antimicrobial activity, drug transport, and formulation performance. We are also developing novel instrumentation that uses mechanical and electromagnetic wave interactions to probe soft matter transport phenomena in real time — enabling non-destructive, continuous measurement of how drugs move through biological materials.
+We build experimental systems that preserve biological complexity. Our physiologically informed antimicrobial platforms incorporate realistic mucus composition, dynamic drug exposure, and spatially heterogeneous barriers into measurements of synergy — revealing that drug combinations which appear synergistic under standard conditions can fail completely when transport constraints are restored.
 
-The goal is to replace surrogate measurements with direct observation of drug fate under conditions that actually resemble the therapeutic environment.
+We are also developing new instrumentation that resolves barrier physics at the scale where it operates. This includes non-contact mechanical characterization of living mucosal cultures, wave-based probes of soft matter transport, and distribution-level metrics for aerosol performance that capture information conventional summary statistics discard.
 
-<div class="pillar-approaches">
-<strong>Key approaches:</strong> physiologically informed antimicrobial susceptibility testing, resonant acoustic rheometry (RAR), laser diffraction dissolution monitoring, wave-based transport probes, ALI culture models
-</div>
+The commitment is simple: measure at the scale where the physics operates, not the scale that is convenient.
+
 </div>
 
 <div class="pillar" markdown="1">
 
-## Diseases and Interventions
+## Therapeutic Programs
 
-*Where the science meets the clinic*
+*Reshaping landscapes to bias outcomes*
 {: .pillar-subtitle}
 
-Our fundamental work on drug–barrier interactions drives specific therapeutic programs:
+Our fundamental work drives specific therapeutic programs, each organized around the same intervention logic: identify the timescale competition or landscape feature that governs the outcome, then intervene to bias it.
 
-**Chronic respiratory infections.** Cystic fibrosis and non-CF bronchiectasis patients face recurrent infections by *Pseudomonas aeruginosa*, *Mycobacterium abscessus*, and other drug-resistant organisms. We develop inhaled antibiotic combinations — including niclosamide–colistin and clofazimine-based regimens — designed to preserve synergy under the transport constraints imposed by infected airway mucus.
+**Antibiotic synergy in chronic lung infections.** Cystic fibrosis and bronchiectasis patients face recurrent infections by *Pseudomonas aeruginosa* and *Mycobacterium abscessus*. Synergistic drug combinations discovered in standard assays often fail in vivo because transport constraints uncouple the co-exposure window. We design formulations — including co-crystallized particles and ion-paired molecular strategies — that enforce co-transport of synergistic partners through the barrier, preserving the concentration ratios that synergy requires.
 
-**Mucus barrier modulation.** Rather than treating mucus solely as an obstacle, we investigate strategies to reshape its properties — viscoelasticity, mesh size, charge landscape — to improve therapeutic access while maintaining its protective functions.
+**Mucus barrier modulation.** Rather than treating mucus solely as an obstacle, we investigate strategies to transiently reshape its energy landscape — flattening electrostatic wells, opening steric channels — to improve therapeutic access while preserving protective barrier function.
 
-**Inhaled biologics.** Proteins and biologics face unique stability and transport challenges in the lung. We engineer dry powder formulations that protect molecular integrity through the particle formation process and control release at mucosal surfaces.
+**Inhaled biologics and protein delivery.** Proteins face unique challenges: conformational instability during particle engineering, adsorptive loss in the barrier, and immunogenicity at the mucosal surface. We develop stabilization strategies informed by the same thermodynamic principles that govern our small-molecule work.
 
-**Microbiome and host defense.** We study how the lung microbiome interacts with drug delivery and infection susceptibility, exploring how therapeutic interventions can be designed to support — rather than disrupt — microbial ecology.
+**New metrics for inhaled product performance.** Conventional aerosol characterization collapses rich distributional data into summary statistics that obscure clinically relevant variability. We are developing distribution-sensitive analytical approaches — including Wasserstein distance-based methods — that preserve the information needed to discriminate between formulations and predict in vivo performance.
 
 <div class="pillar-approaches">
 <strong>Disease contexts:</strong> cystic fibrosis, NTM lung disease, tuberculosis, bronchiectasis, IPF
@@ -90,5 +99,5 @@ Our fundamental work on drug–barrier interactions drives specific therapeutic 
 </div>
 
 <div class="funding">
-Our work is supported by the National Institutes of Health, the PhRMA Foundation, and the University of Michigan.
+Our work is supported by the National Institutes of Health and the University of Michigan.
 </div>
