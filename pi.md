@@ -6,8 +6,7 @@ permalink: /pi/
 
 <div class="pi-card">
   <div class="pi-photo">
-    <!-- Placeholder — replace with Headshot_ABrunaugh.jpg -->
-    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 12 0v1"/></svg>
+    <img src="/images/headshots/ashlee-brunaugh.jpg" alt="Ashlee D. Brunaugh">
   </div>
   <div class="pi-details">
     <h2>Ashlee D. Brunaugh, PharmD, PhD</h2>
