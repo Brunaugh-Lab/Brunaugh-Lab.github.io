@@ -7,6 +7,11 @@ permalink: /research/respiratory-infection-biology/
 
 [← Back to Research](/research/)
 
+<figure class="research-figure">
+  <img src="/images/research/chronic-infection-kinetics.png" alt="Longitudinal bacterial burden across lung, liver, and spleen in chronic Burkholderia cenocepacia infection models tracked over 14 and 42 days.">
+  <figcaption>Longitudinal bacterial burden across lung, liver, and spleen in chronic <em>Burkholderia cenocepacia</em> infection models, tracked over 14 and 42 days.</figcaption>
+</figure>
+
 ## The Problem
 
 Chronic respiratory infections don't establish randomly. They exploit specific physical and ecological conditions in the airway — regions of impaired clearance, altered mucus composition, oxygen gradients, and disrupted microbiome ecology. Yet we evaluate antibiotics in systems that ignore this spatial and ecological complexity, and we study infection establishment without accounting for the transport physics that governs which bacteria reach which niches.
