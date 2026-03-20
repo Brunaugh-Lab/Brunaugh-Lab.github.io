@@ -529,6 +529,63 @@ li { margin-bottom: 0.35rem; }
   margin-bottom: 0.25rem;
 }
 
+/* --- Software / Tools --- */
+.tool-card {
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--maize);
+}
+.tool-card h2 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.tool-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--gray-600);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+.tool-meta {
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.tool-meta p {
+  margin-bottom: 0.35rem;
+}
+.tool-meta p:last-child {
+  margin-bottom: 0;
+}
+.tool-links {
+  margin-top: 1.25rem;
+}
+.coming-soon-heading {
+  color: var(--gray-600);
+  margin-top: 3rem;
+}
+.tool-card-soon {
+  background: var(--gray-50);
+  border-left-color: var(--gray-400);
+  opacity: 0.6;
+}
+.tool-card-soon h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: var(--gray-600);
+}
+.tool-card-soon p {
+  color: var(--gray-600);
+  margin-bottom: 0;
+}
+
 /* --- Contact --- */
 .contact-grid {
   display: grid;
