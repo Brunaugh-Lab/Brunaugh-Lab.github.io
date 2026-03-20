@@ -7,6 +7,11 @@ permalink: /research/barrier-cartography/
 
 [← Back to Research](/research/)
 
+<figure class="research-figure">
+  <img src="/images/research/rar-mucus-mechanics-rescue.png" alt="Longitudinal non-contact measurement of mucus elastic modulus and viscosity on living airway cultures, showing IL-13-driven inflammation and budesonide rescue tracked over 14 days using resonant acoustic rheometry.">
+  <figcaption>Resonant acoustic rheometry enables longitudinal, non-contact tracking of mucus mechanics on living airway cultures — here showing IL-13-driven inflammation and budesonide rescue over 14 days.</figcaption>
+</figure>
+
 ## The Problem
 
 Current tools for characterizing biological barriers are mismatched to the physics they need to capture. Bulk rheology averages over millimeter volumes, collapsing the spatial heterogeneity that determines transport selectivity into a single number. Particle-tracking microrheology samples only the accessible pores. Static modulus matching at a single frequency ignores the dynamic relaxation behavior that governs whether a molecule escapes a transient cage or remains trapped.
