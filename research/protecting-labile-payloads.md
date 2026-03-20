@@ -7,6 +7,11 @@ permalink: /research/protecting-labile-payloads/
 
 [← Back to Research](/research/)
 
+<figure class="research-figure">
+  <img src="/images/research/protein-formulation-response-surfaces.png" alt="Ternary mixture response surfaces showing how excipient composition simultaneously governs glass transition temperature, surface chemistry, humidity sensitivity, aerosol dispersibility, and protein secondary structure in spray-dried powders.">
+  <figcaption>Ternary mixture response surfaces reveal how excipient composition simultaneously governs glass transition temperature, surface chemistry, humidity sensitivity, aerosol dispersibility, and protein secondary structure — illustrating why cross-domain design is essential.</figcaption>
+</figure>
+
 ## The Problem
 
 Many of the most promising inhaled therapeutics — proteins, peptides, amorphous small molecules — are inherently unstable. Proteins denature during the mechanical and thermal stresses of particle engineering. Amorphous drugs recrystallize during storage, changing dissolution behavior and aerosol performance unpredictably. Poorly soluble compounds resist co-formulation with hydrophilic partners.

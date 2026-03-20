@@ -7,6 +7,11 @@ permalink: /research/inhaled-product-performance/
 
 [← Back to Research](/research/)
 
+<figure class="research-figure">
+  <img src="/images/research/wasserstein-graphical-abstract.png" alt="Graphical abstract showing Wasserstein distance framework for quantifying dispersibility across dry powder inhaler formulations.">
+  <figcaption>The Wasserstein distance framework compares entire particle size distributions to quantify how closely an inhaler-generated aerosol approaches a powder's intrinsic dispersion limit.</figcaption>
+</figure>
+
 ## The Problem
 
 The tools we use to evaluate inhaled drug products were designed for convenience, not fidelity. Cascade impaction — the regulatory gold standard — collapses rich aerodynamic size distributions into scalar summaries like fine particle fraction and mass median aerodynamic diameter. Dissolution testing for inhaled products remains poorly standardized, with no consensus method for capturing how particles dissolve and transform in the thin fluid layers that line the airways.
