@@ -283,7 +283,8 @@ li { margin-bottom: 0.35rem; }
 
 /* --- Page Content --- */
 .page-content {
-  padding: 3rem 0 4rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 .page-content h2 {
   padding-bottom: 0.5rem;
