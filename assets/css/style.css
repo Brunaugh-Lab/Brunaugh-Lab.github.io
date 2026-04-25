@@ -240,6 +240,23 @@ li { margin-bottom: 0.35rem; }
 }
 .snapshot-card .card-link:hover { color: #004080; }
 
+.cta-link {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+.cta-link a {
+  display: inline-block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--blue);
+  border-bottom: 2px solid var(--maize);
+  padding-bottom: 0.25rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s;
+}
+.cta-link a:hover { color: #004080; }
+
 /* --- Recruiting Callout (Homepage) --- */
 .callout {
   padding: 4rem 0;
