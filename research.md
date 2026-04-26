@@ -34,5 +34,5 @@ The lab treats this as a design problem rather than a process artifact. Componen
 <p class="research-projects"><span class="research-projects-label">Projects</span> <a href="/research/protecting-labile-payloads/">Protecting Labile Payloads</a> · <a href="/research/inhaled-product-performance/">Inhaled Product Performance</a> · <a href="/research/spatiotemporal-synergy/">Spatiotemporal Synergy</a></p>
 
 <div class="funding">
-Our work is supported by the National Institutes of Health and the University of Michigan.
+Our work is supported by the National Institutes of Health, the Cystic Fibrosis Foundation, and the University of Michigan.
 </div>
