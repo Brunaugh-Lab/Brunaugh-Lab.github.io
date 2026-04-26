@@ -370,6 +370,27 @@ li { margin-bottom: 0.35rem; }
   white-space: nowrap;
 }
 
+/* Research section project links — plain inline format */
+.research-projects {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--gray-600);
+}
+.research-projects-label {
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--gray-600);
+  margin-right: 0.5rem;
+}
+.research-projects a {
+  font-weight: 600;
+  color: var(--blue);
+  white-space: nowrap;
+}
+.research-projects a:hover { color: #004080; }
+
 /* --- People --- */
 .people-section {
   margin-bottom: 3rem;
