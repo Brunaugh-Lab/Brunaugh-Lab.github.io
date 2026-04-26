@@ -13,17 +13,9 @@ This insight organizes everything we do. Our lab develops the physical theory, t
 
 ---
 
-## How We Think: Three Layers
+Our work across these areas rests on a shared way of thinking — the same physics governs outcomes across mucus, biofilms, drying droplets, and freezing tissue.
 
-Our research is built on a conviction: **the same underlying physics governs outcomes across seemingly different problems.** A molecule navigating a mucin gel, a drug pair traversing an infected airway, and an antibiotic penetrating a biofilm are all instances of the same problem — a perturbation propagating through a structured medium, where the outcome depends on the competition between the timescale of the perturbation and the timescales of the medium's response.
-
-We organize our work in three layers:
-
-**The laws.** We identify the physical principles — timescale competitions, energy landscape topology, influence reach — that determine outcomes independent of any particular system. When two antibiotics must arrive at a bacterial membrane within the same time window to achieve synergy, the governing physics is a timescale competition: does the co-exposure window persist long enough for the combined mechanism to act? When a cationic drug enters a polyanionic mucin gel, the governing physics is landscape navigation: the electrostatic field sorts it into wells and channels that determine how far it penetrates. These principles are not analogies. They are shared mathematics.
-
-**The measurements.** Universal laws are only useful if we can measure the parameters they require — at the spatial and temporal scale where heterogeneity governs outcomes. Bulk rheology averages over the very structure that determines transport. Standard checkerboard synergy assays strip away the environmental complexity that governs whether synergy survives in vivo. We build experimental platforms that preserve biological complexity while resolving the physics at the scale where it matters.
-
-**The interventions.** When you understand the landscape and the timescale competitions, intervention becomes landscape engineering: reshape wells, lower barriers, open channels, bias timescale ratios. We don't simply optimize dose. We design formulations, particles, and molecular strategies that deliberately reshape the physical environment to favor the therapeutic outcome.
+<p class="cta-link"><a href="/approach/">How we think →</a></p>
 
 ---
 

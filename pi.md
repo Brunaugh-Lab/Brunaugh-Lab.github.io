@@ -25,7 +25,7 @@ permalink: /pi/
 
 ## Bio
 
-I study how complex biological environments govern the fate of therapeutics. Airway mucus, microbial biofilms, and necrotic lesions don't just slow drugs down — they adsorb them, sequester them, and reshape local concentrations in ways that can silently break treatment strategies. My lab develops the experimental platforms, formulations, and transport models needed to understand these interactions and design around them.
+I study the rules of transport in complex, dynamic environments — biological barriers, formulated solid-state systems, and the cryopreservation landscape — and engineer therapeutic interventions that exploit them. Airway mucus, microbial biofilms, and necrotic lesions don't just slow drugs down — they adsorb them, sequester them, and reshape local concentrations in ways that can silently break treatment strategies. My lab develops the experimental platforms, formulations, and transport models needed to understand these interactions and design around them.
 
 Our work integrates solid-state formulation, aerosol engineering, microbiology, and transport physics. We build inhaled drug products — dry powders, amorphous solid dispersions, multi-drug combination particles — whose design is informed by the physical reality of the environments where they must perform. We are particularly focused on chronic respiratory infections, antibiotic synergy, and the mucus barrier.
 
