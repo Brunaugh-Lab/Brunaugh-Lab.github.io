@@ -46,6 +46,25 @@ body {
 a { color: var(--blue); text-decoration: none; transition: color 0.2s; }
 a:hover { color: #004080; }
 
+:focus-visible {
+  outline: 3px solid var(--maize);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1000;
+  padding: 0.65rem 1rem;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--blue);
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+.skip-link:focus { transform: translateY(0); }
+
 img { max-width: 100%; height: auto; display: block; }
 
 /* --- Typography --- */
@@ -638,6 +657,13 @@ li { margin-bottom: 0.35rem; }
   font-size: 0.85rem;
   font-weight: 600;
 }
+.pub-links {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem 0.8rem;
+}
 
 @media (max-width: 640px) {
   .pub-entry--featured .pub-content {
@@ -652,9 +678,12 @@ li { margin-bottom: 0.35rem; }
   .pub-meta {
     display: block;
   }
+  .pub-links {
+    justify-content: flex-start;
+    margin-top: 0.75rem;
+  }
   .pub-link {
     display: inline-block;
-    margin-top: 0.75rem;
   }
 }
 
@@ -807,4 +836,14 @@ li { margin-bottom: 0.35rem; }
 
   .headshot-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
   .headshot-photo { width: 160px; height: 160px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

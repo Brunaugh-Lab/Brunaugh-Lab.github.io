@@ -2,13 +2,14 @@
 layout: page
 title: Inhaled Product Performance
 subtitle: Prediction and optimization of inhaled product performance
+description: Distribution-sensitive measurements and explicit inference frameworks for understanding inhaled particle performance.
 permalink: /research/inhaled-product-performance/
 ---
 
 [← Back to Research](/research/)
 
 <figure class="research-figure">
-  <img src="/images/research/wasserstein-graphical-abstract.png" alt="Graphical abstract showing Wasserstein distance framework for quantifying dispersibility across dry powder inhaler formulations.">
+  <img src="/images/research/wasserstein-graphical-abstract.png" alt="Graphical abstract showing Wasserstein distance framework for quantifying dispersibility across dry powder inhaler formulations." loading="lazy" decoding="async">
   <figcaption>The Wasserstein distance framework compares entire particle size distributions to quantify how closely an inhaler-generated aerosol approaches a powder's intrinsic dispersion limit.</figcaption>
 </figure>
 
@@ -26,13 +27,9 @@ We are building physically grounded, distribution-sensitive analytical framework
 
 **Wasserstein distance for aerosol dispersibility.** We introduced a framework that applies the Wasserstein distance (Earth Mover's Distance) to quantify how closely an inhaler-generated aerosol approaches a powder's intrinsic dispersion limit. Unlike scalar metrics, this approach compares entire particle size distributions, capturing formulation-, device-, and flow-dependent differences in dispersibility that visual inspection of size distributions alone cannot separate. The metric is formulation-agnostic, physically interpretable, and works with standard laser diffraction data. We released the analysis toolkit as open-source software.
 
-**Laser diffraction as a proxy for particle dissolution and formation kinetics.** We are developing methods that repurpose laser diffraction — a fast, high-throughput technique already present in most formulation labs — as a real-time probe of particle dissolution and solid-state transformation. By tracking distributional changes over time rather than extracting single-point dissolution values, we can capture the kinetics of how particles dissolve, swell, aggregate, or transform in contact with biorelevant media. This approach — which we call DiffractoMorph — bridges the gap between static characterization and dynamic performance.
+**Dynamic observation of particulate transformation.** We are developing DiffractoMorph, a framework that combines time-resolved, multichannel angular-scattering measurements with dissolved-phase mass balance to observe particulate systems as they change in biorelevant media. A detector response alone does not uniquely identify whether particles dissolved, changed in number, aggregated, or reorganized. We therefore use calibrated observation operators, controlled perturbations, and minimum-sufficient models to determine which explanations the measurements support — and to state clearly when competing mechanisms remain unresolved.
 
-**From screening to prediction.** The long-term goal is a measurement-to-prediction pipeline: use distribution-sensitive characterization tools to generate the inputs that physically grounded transport models need to predict in vivo performance — replacing empirical correlations with mechanistic understanding.
-
-## Who Works on This
-
-This project involves Grace Xia (Wasserstein dispersibility framework, inhaler performance modeling), Nuz Dechayont (dispersibility analysis), and Linze Che (particle dissolution methods, DiffractoMorph development).
+**From screening to prediction.** The long-term goal is a measurement-to-prediction pipeline: use distribution-sensitive characterization and explicit measurement models to build physically grounded predictions of product performance, while preserving the boundary between direct observation and model-dependent mechanism.
 
 ## Selected Publications & Tools
 

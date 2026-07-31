@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Publications
-subtitle: Selected first/last author publications
+subtitle: Selected corresponding-author and lab-led publications
+description: Selected corresponding-author and lab-led publications from the Brunaugh Lab.
 permalink: /publications/
 ---
 
@@ -17,7 +18,7 @@ permalink: /publications/
   <article class="pub-entry{% if publication.image %} pub-entry--featured{% endif %}">
     {% if publication.image %}
       <a class="pub-visual" href="{{ publication.url }}" aria-label="View article: {{ publication.title | escape }}">
-        <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}" loading="lazy">
+        <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}" loading="lazy" decoding="async">
         <span>{{ publication.visual_caption }}</span>
       </a>
     {% endif %}
@@ -31,7 +32,11 @@ permalink: /publications/
             <span class="pub-tag">{{ tag }}</span>
           {% endfor %}
         </div>
-        <a class="pub-link" href="{{ publication.url }}">View article <span aria-hidden="true">↗</span></a>
+        <div class="pub-links">
+          <a class="pub-link" href="{{ publication.url }}">View article <span aria-hidden="true">↗</span></a>
+          {% if publication.code_url %}<a class="pub-link" href="{{ publication.code_url }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+          {% if publication.data_url %}<a class="pub-link" href="{{ publication.data_url }}">Data <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
       </div>
     </div>
   </article>

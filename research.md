@@ -2,6 +2,7 @@
 layout: page
 title: Research
 subtitle: What the lab works on, organized by the kind of medium being engaged
+description: Research in the Brunaugh Lab spans soft-matter transport, respiratory delivery, and the formation and transformation of structured particles.
 permalink: /research/
 ---
 
@@ -13,15 +14,15 @@ The same physics governs all three. [**How we think →**](/approach/)
 
 Mucus, biofilm matrix, necrotic tissue, and tumor stroma are not passive volumes that drugs diffuse through. They are sticky, capacity-limited matrices that bind drugs interfacially — and once binding capacity exceeds the dose, the drug is captured rather than free. Penetration depth, breakthrough, and time-to-failure are then set by adsorption physics, not classical diffusion.
 
-Two specific commitments organize the lab's work here. First, **adsorption-limited transport dominates outcomes** in matrices where binding is fast and capacity is large — most biological matrices the lab studies. Second, where the dominant interaction is electrostatic, **the charge landscape is reprogrammable**: introducing agents that locally modify the field can open transport windows or selectively redirect material through barriers that would otherwise exclude it. The barrier still functions; its selectivity is temporarily reshaped.
+Two specific commitments organize the lab's work here. First, we investigate **when transport enters an adsorption-limited regime** — where finite binding capacity and encounter kinetics, rather than diffusion alone, determine therapeutic reach. Second, where the dominant interaction is electrostatic, **the charge landscape is reprogrammable**: introducing agents that locally modify the field can open transport windows or selectively redirect material through barriers that would otherwise exclude it. The barrier still functions; its selectivity is temporarily reshaped.
 
 <p class="research-projects"><span class="research-projects-label">Projects</span> <a href="/research/spatiotemporal-synergy/">Spatiotemporal Synergy</a> · <a href="/research/mucus-barrier-modulation/">Mucus Barrier Modulation</a></p>
 
 ## Respiratory Transport Logic
 
-The airway is not a single transport medium. The mucus gel and the periciliary brush are two different compartments with two different clearance physics — minutes for the gel, hours-to-days for the brush. For nearly every nasal protein therapeutic, the productive biology happens at or below the brush, not in the gel. The gel is a transit layer; the cell surface is where engagement happens.
+The airway is not a single transport medium. The mucus gel and the periciliary brush are two different compartments with different clearance physics. For extracellular nasal therapeutics designed to act at the epithelial surface, productive exposure depends on reaching and remaining available at the ciliated apical interface — not simply remaining somewhere in the nasal cavity.
 
-This depth asymmetry reframes the design objective. A formulation that wins on bulk residence while losing on depth-resolved retention at the brush is not winning at all. The lab develops technologies that target the periciliary compartment specifically — using viscoelastic operating-window control, charge geometry, and depth-resolved imaging to confirm that retention happens where it matters.
+This depth asymmetry reframes the design objective. A formulation that increases bulk residence while losing functional availability at the target interface has not necessarily improved delivery. The lab develops technologies that control barrier mechanics, molecular interactions, and depth-resolved exposure — and measures whether a therapeutic remains available where its biology occurs.
 
 <p class="research-projects"><span class="research-projects-label">Projects</span> <a href="/research/mucus-barrier-modulation/">Mucus Barrier Modulation</a> · <a href="/research/respiratory-infection-biology/">Respiratory Infection Biology</a></p>
 

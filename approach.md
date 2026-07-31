@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How We Think
+description: The Brunaugh Lab uses timescale competitions, energy landscapes, and effective reach to understand and engineer therapeutic transport.
 permalink: /approach/
 ---
 

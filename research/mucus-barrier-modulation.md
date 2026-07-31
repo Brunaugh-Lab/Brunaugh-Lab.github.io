@@ -2,13 +2,14 @@
 layout: page
 title: Mucus Barrier Modulation
 subtitle: Reshaping the barrier to control bioavailability
+description: Strategies for transiently reshaping airway mucus mechanics and interfacial interactions without destroying barrier function.
 permalink: /research/mucus-barrier-modulation/
 ---
 
 [← Back to Research](/research/)
 
 <figure class="research-figure">
-  <img src="/images/research/saline-hydration-rar.png" alt="Real-time non-contact measurement of mucus elastic modulus changes in response to osmotic agents showing dose-dependent barrier remodeling tracked by resonant acoustic rheometry.">
+  <img src="/images/research/saline-hydration-rar.png" alt="Real-time non-contact measurement of mucus elastic modulus changes in response to osmotic agents showing dose-dependent barrier remodeling tracked by resonant acoustic rheometry." loading="lazy" decoding="async">
   <figcaption>Real-time, non-contact tracking of mucus elastic modulus changes in response to osmotic agents, showing dose-dependent barrier remodeling measured by resonant acoustic rheometry.</figcaption>
 </figure>
 
@@ -28,6 +29,4 @@ Rather than treating mucus as a passive obstacle, we investigate strategies to t
 
 **Barrier-aware formulation design.** All of our formulation work is designed with the barrier in mind. Understanding how mucus selectively filters drugs based on charge, hydrophobicity, and size informs every aspect of particle design — from surface chemistry to release kinetics to excipient selection.
 
-## Who Works on This
-
-This project involves Nishant Shah (RAR-based mucus mechanics and osmotic modulation studies), Rahela Zaman (mucus transport and barrier remodeling), Grace Xia (mucus viscoelasticity in nasal delivery), and connects to the [Barrier Cartography](/research/barrier-cartography/) program for measurement support.
+This work connects to our [Barrier Cartography](/research/barrier-cartography/) program, which develops the measurements needed to determine when and where barrier modulation changes transport.

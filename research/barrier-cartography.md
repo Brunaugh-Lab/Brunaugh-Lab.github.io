@@ -2,13 +2,14 @@
 layout: page
 title: Barrier Cartography
 subtitle: Measuring the barrier at the scale that governs transport
+description: Measuring and modeling biological barriers at the spatial and temporal scales that govern therapeutic transport.
 permalink: /research/barrier-cartography/
 ---
 
 [← Back to Research](/research/)
 
 <figure class="research-figure">
-  <img src="/images/research/rar-mucus-mechanics-rescue.png" alt="Longitudinal non-contact measurement of mucus elastic modulus and viscosity on living airway cultures, showing IL-13-driven inflammation and budesonide rescue tracked over 14 days using resonant acoustic rheometry.">
+  <img src="/images/research/rar-mucus-mechanics-rescue.png" alt="Longitudinal non-contact measurement of mucus elastic modulus and viscosity on living airway cultures, showing IL-13-driven inflammation and budesonide rescue tracked over 14 days using resonant acoustic rheometry." loading="lazy" decoding="async">
   <figcaption>Resonant acoustic rheometry enables longitudinal, non-contact tracking of mucus mechanics on living airway cultures — here showing IL-13-driven inflammation and budesonide rescue over 14 days.</figcaption>
 </figure>
 
@@ -27,7 +28,3 @@ Barrier Cartography is our research program for measuring, modeling, and predict
 **Timescale competition framework.** We are developing a framework that evaluates synthetic mucus models not by whether they match bulk modulus, but by whether they reproduce the transport-relevant dynamics of native mucus. Two networks with identical elastic modulus can produce fundamentally different transport if their relaxation spectra differ. Our framework identifies which timescale competitions — network relaxation vs. particle diffusion, network relaxation vs. ciliary forcing — govern outcomes, and tests whether a model faithfully reproduces them.
 
 **Toward voxel-scale mapping.** The next generation of this program aims to convert fluorescence lifetime and anisotropy measurements into calibrated, spatially resolved mechanical maps of barrier environments — enabling direct visualization of where drugs are trapped, where they flow, and why.
-
-## Who Works on This
-
-This project involves Nishant Shah (novel instrumentation and wave-based transport probes), Rahela Zaman (mucus transport and infection susceptibility), and Grace Xia (mucus viscoelasticity in nasal delivery).

@@ -2,6 +2,7 @@
 layout: page
 title: Opportunities
 subtitle: Join the Brunaugh Lab
+description: Training and research opportunities in the Brunaugh Lab at the University of Michigan College of Pharmacy.
 permalink: /opportunities/
 ---
 
@@ -26,7 +27,7 @@ We don't recruit for a specific background. Current and former lab members have 
 </div>
 
 <div class="trait" markdown="1">
-**A desire to learn how to think, not just what to do.** We are less interested in whether you've already published in our exact field and more interested in whether you ask good questions, think critically about experimental design, and want to develop a deep understanding of the physical principles that govern drug delivery.
+**A desire to learn how to think, not just what to do.** We are less interested in whether you've already published in our exact field and more interested in whether you ask good questions, think critically about experimental design, and want to develop a deep understanding of the physical principles that govern drug delivery. That includes learning to distinguish what an experiment directly observes, what a calibrated measurement supports, what depends on a model, and what remains unresolved.
 </div>
 
 <div class="trait" markdown="1">
@@ -37,9 +38,9 @@ We don't recruit for a specific background. Current and former lab members have 
 
 ## What Training Looks Like
 
-Graduate students in our lab get broad experimental training by design. You will not spend five years optimizing a single assay. Instead, you'll work across multiple domains — solid-state characterization, aerosol science, microbiology, transport physics, formulation design — because the questions we ask require it.
+Graduate students in our lab develop depth in a central scientific problem while gaining broad experimental training around it. Depending on the question, that may include solid-state characterization, aerosol science, microbiology, transport physics, formulation design, or instrument development. The goal is not to collect techniques; it is to learn which measurements are needed to make a defensible scientific claim.
 
-You will also develop computational skills. Our research increasingly integrates modeling and data analysis alongside bench work, and we invest in making sure every lab member is comfortable moving between the two.
+You will also develop computational skills. Our research increasingly integrates modeling and data analysis alongside bench work, and we invest in making sure every lab member is comfortable moving between the two. We emphasize inference literacy: knowing the difference between an observation, an operator-supported association, a model-dependent mechanism, and a question the available data cannot yet resolve.
 
 We are a collaborative group. Lab members regularly contribute to each other's projects, share techniques, and push each other's thinking. The environment is rigorous but supportive — we take the science seriously and treat each other well.
 

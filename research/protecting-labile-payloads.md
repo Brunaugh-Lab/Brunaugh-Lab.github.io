@@ -2,13 +2,14 @@
 layout: page
 title: Protecting Labile Delivery Payloads
 subtitle: Stabilizing fragile molecules through particle engineering
+description: Cross-domain particle engineering to stabilize proteins, peptides, and poorly soluble therapeutic payloads.
 permalink: /research/protecting-labile-payloads/
 ---
 
 [← Back to Research](/research/)
 
 <figure class="research-figure">
-  <img src="/images/research/protein-formulation-response-surfaces.png" alt="Ternary mixture response surfaces showing how excipient composition simultaneously governs glass transition temperature, surface chemistry, humidity sensitivity, aerosol dispersibility, and protein secondary structure in spray-dried powders.">
+  <img src="/images/research/protein-formulation-response-surfaces.png" alt="Ternary mixture response surfaces showing how excipient composition simultaneously governs glass transition temperature, surface chemistry, humidity sensitivity, aerosol dispersibility, and protein secondary structure in spray-dried powders." loading="lazy" decoding="async">
   <figcaption>Ternary mixture response surfaces reveal how excipient composition simultaneously governs glass transition temperature, surface chemistry, humidity sensitivity, aerosol dispersibility, and protein secondary structure — illustrating why cross-domain design is essential.</figcaption>
 </figure>
 
@@ -27,10 +28,6 @@ We approach particle engineering as a cross-domain design problem. Every materia
 **Multi-component particle architectures.** We develop particles where internal spatial distribution is deliberately controlled — core-shell structures, crystalline-in-amorphous composites, and multi-drug particles where each component's location within the particle is engineered to serve a specific function.
 
 **Polymer stabilization of small molecules.** We investigate how polymers chemically and physically stabilize labile small molecules against recrystallization, degradation, and moisture-induced transformation — with a focus on understanding the molecular mechanisms of stabilization rather than empirical screening.
-
-## Who Works on This
-
-This project involves Grace Xia (multi-component spray-dried particles, protein formulation), Nuz Dechayont (polymer stabilization of small molecules), and Linze Che (inhaled amorphous solid dispersions and dissolution methods).
 
 ## Selected Publications
 

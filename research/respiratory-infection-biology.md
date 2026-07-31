@@ -2,13 +2,14 @@
 layout: page
 title: Respiratory Infection Biology
 subtitle: A multidisciplinary approach to respiratory infection biology
+description: Respiratory infection ecology, encounter-assembled bacterial identity, and the transport physics of airway colonization and treatment.
 permalink: /research/respiratory-infection-biology/
 ---
 
 [← Back to Research](/research/)
 
 <figure class="research-figure">
-  <img src="/images/research/chronic-infection-kinetics.png" alt="Longitudinal bacterial burden across lung, liver, and spleen in chronic Burkholderia cenocepacia infection models tracked over 14 and 42 days.">
+  <img src="/images/research/chronic-infection-kinetics.png" alt="Longitudinal bacterial burden across lung, liver, and spleen in chronic Burkholderia cenocepacia infection models tracked over 14 and 42 days." loading="lazy" decoding="async">
   <figcaption>Longitudinal bacterial burden across lung, liver, and spleen in chronic <em>Burkholderia cenocepacia</em> infection models, tracked over 14 and 42 days.</figcaption>
 </figure>
 
@@ -26,10 +27,6 @@ We bring a transport physics and ecological perspective to respiratory infection
 
 **Rational inoculum design.** Standard infection models introduce bacteria grown under laboratory conditions that bear little resemblance to the airway environment. We use lag-phase kinetics and growth conditioning to rationally engineer inocula whose physiological state is matched to the airway niche they must colonize. Combined with systematic optimization of the physical delivery process — formulation, delivery rate, deposition mapping — this approach reduces the variability that plagues preclinical antibiotic evaluation and produces models with greater translational relevance.
 
-**Protein coronas and surface interactions.** When bacteria or particles enter the airway, they immediately acquire a corona of adsorbed proteins, mucins, and surfactant components that reshapes their surface identity. We study how this corona formation governs downstream fate — adhesion, immune recognition, clearance, and colonization — and how it can be predicted or engineered.
+**Encounter-assembled surface identity.** A bacterium does not enter the airway as an unchanged, static target. Prior encounters with environmental proteins, mucins, and airway-surface components can assemble a dynamic adsorbed layer that changes how the bacterium is recognized and transported. We study how surface properties, exposure history, and adsorption kinetics shape downstream adhesion, immune recognition, clearance, and colonization — and which aspects of that history remain biologically consequential.
 
 **From infection models to live therapeutic delivery.** The same physics that governs bacterial colonization of the airway governs the delivery of live therapeutics. Inhaled probiotics, bacteriophages, and engineered microbial consortia face identical challenges: surviving aerosolization, traversing the mucus barrier, and establishing at the mucosal surface. We apply lessons from our infection biology work to develop stabilization and delivery strategies for live organisms, closing the loop between understanding infection ecology and engineering therapeutic interventions that reshape it.
-
-## Who Works on This
-
-This project involves Yice Zhang (chronic infection models, *M. abscessus* niche ecology), Shawn Li (inoculum engineering, delivery variability), Rahela Zaman (mucus-infection interface, barrier remodeling), and Xiuhao Guan (protein interactions and sequence-based prediction).

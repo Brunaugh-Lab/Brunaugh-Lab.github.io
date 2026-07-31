@@ -37,6 +37,8 @@
   journal: "Pharmaceutics"
   details: "18(3): 283, 2026"
   url: "https://doi.org/10.3390/pharmaceutics18030283"
+  code_url: "https://github.com/Brunaugh-Lab/dispersibility-analysis"
+  data_url: "https://doi.org/10.7302/nwc8-9f06"
   tags: [methods, aerosol science]
   image: "/images/publications/wasserstein-dispersibility.png"
   image_alt: "Graphical abstract showing particle-size distributions compressed into a Wasserstein distance metric for comparing dry powder inhaler dispersibility."
