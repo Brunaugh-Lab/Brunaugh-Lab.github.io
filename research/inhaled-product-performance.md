@@ -31,8 +31,4 @@ We are building physically grounded, distribution-sensitive analytical framework
 
 **From screening to prediction.** The long-term goal is a measurement-to-prediction pipeline: use distribution-sensitive characterization and explicit measurement models to build physically grounded predictions of product performance, while preserving the boundary between direct observation and model-dependent mechanism.
 
-## Selected Publications & Tools
-
-- Xia G, Dechayont B, Che L, Comfort I, Brunaugh AD. A distribution-based metric for quantifying dispersibility in dry powder inhalers. *Pharmaceutics*, 2026.
-- [Dispersibility Analysis Toolkit](https://github.com/Brunaugh-Lab/dispersibility-analysis) — open-source R package
-- [Raw Laser Diffraction Datasets](https://doi.org/10.7302/nwc8-9f06) — Deep Blue Data repository
+{% include project-publications.html project="inhaled-product-performance" %}

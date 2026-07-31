@@ -29,8 +29,4 @@ We approach particle engineering as a cross-domain design problem. Every materia
 
 **Polymer stabilization of small molecules.** We investigate how polymers chemically and physically stabilize labile small molecules against recrystallization, degradation, and moisture-induced transformation — with a focus on understanding the molecular mechanisms of stabilization rather than empirical screening.
 
-## Selected Publications
-
-- Romero-Gonzalez M et al. Strategies to overcome undesired physicochemical changes in particle engineering for inhalation. *KONA Powder and Particle Journal*, 2024:2025008.
-- Brunaugh AD et al. Identification of stability constraints in the particle engineering of an inhaled monoclonal antibody dried powder. *Journal of Pharmaceutical Sciences*, 111(2): 403–416, 2022.
-- Brunaugh AD et al. Effect of particle formation process on characteristics and aerosol performance of respirable protein powders. *Molecular Pharmaceutics*, 16(10): 4165–4180, 2019.
+{% include project-publications.html project="protecting-labile-payloads" %}

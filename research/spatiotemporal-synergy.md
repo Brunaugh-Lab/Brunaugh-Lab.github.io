@@ -44,7 +44,4 @@ We reframe antimicrobial synergy as a system property — not just a drug-pair a
 
 **Validating in physiologically relevant models.** In a murine lung infection model, intratracheal delivery of the co-processed particles reduced pulmonary bacterial burden to levels comparable to systemic ceftazidime — demonstrating that the formulation preserves therapeutic activity when delivered to the lung.
 
-## Selected Publications
-
-- Romero-Gonzalez M et al. Colistin-stabilized antisolvent precipitation enables engineering of microcrystalline niclosamide for inhalable composite powders. *International Journal of Pharmaceutics*, 2026.
-- Romero-Gonzalez M et al. Physiologically informed in vitro framework reveals context-dependent combinatory activity of niclosamide–colistin against Gram-negative bacteria. *Journal of Antimicrobial Chemotherapy*, 80(11): 2958–2969, 2025.
+{% include project-publications.html project="spatiotemporal-synergy" %}

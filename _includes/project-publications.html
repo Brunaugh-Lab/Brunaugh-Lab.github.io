@@ -1,0 +1,17 @@
+{% assign related_publications = site.data.publications | where_exp: "publication", "publication.projects contains include.project" %}
+{% if related_publications.size > 0 %}
+<h2>Selected Publications</h2>
+<ul class="project-publications">
+  {% for publication in related_publications %}
+  <li>
+    {{ publication.authors }}. <a href="{{ publication.url }}">{{ publication.title }}</a>. <em>{{ publication.journal }}</em>, {{ publication.details }}.
+    {% if publication.code_url or publication.data_url %}
+    <span class="project-publication-links">
+      {% if publication.code_url %}<a href="{{ publication.code_url }}">Code <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if publication.data_url %}<a href="{{ publication.data_url }}">Data <span aria-hidden="true">↗</span></a>{% endif %}
+    </span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -5,6 +5,7 @@
   details: "2026"
   url: "https://doi.org/10.1021/acsomega.6c02415"
   tags: [synergy, antimicrobial, formulation]
+  projects: [spatiotemporal-synergy, protecting-labile-payloads]
   image: "/images/publications/curcumin-chitosan-toc.png"
   image_alt: "Graphical abstract showing pH-dependent chitosan-curcumin binding, curcumin protection, and antimicrobial synergy against Pseudomonas aeruginosa."
   visual_caption: "Graphical abstract"
@@ -16,6 +17,7 @@
   details: "23(7): 3825–3842, 2026"
   url: "https://doi.org/10.1021/acs.molpharmaceut.6c00277"
   tags: [biologics, particle engineering, formulation]
+  projects: [protecting-labile-payloads]
   image: "/images/publications/protein-carbohydrate-design-space.png"
   image_alt: "Graphical abstract balancing protein stability and powder dispersibility for pulmonary biologic delivery using ternary carbohydrate formulations."
   visual_caption: "Graphical abstract"
@@ -27,6 +29,7 @@
   details: "695: 126791, 2026"
   url: "https://doi.org/10.1016/j.ijpharm.2026.126791"
   tags: [synergy, particle engineering]
+  projects: [spatiotemporal-synergy, protecting-labile-payloads]
   image: "/images/publications/niclosamide-colistin-composite.png"
   image_alt: "Graphical abstract showing colistin-stabilized niclosamide microcrystals engineered into an inhalable composite powder to prolong drug colocalization."
   visual_caption: "Graphical abstract"
@@ -40,6 +43,7 @@
   code_url: "https://github.com/Brunaugh-Lab/dispersibility-analysis"
   data_url: "https://doi.org/10.7302/nwc8-9f06"
   tags: [methods, aerosol science]
+  projects: [inhaled-product-performance]
   image: "/images/publications/wasserstein-dispersibility.png"
   image_alt: "Graphical abstract showing particle-size distributions compressed into a Wasserstein distance metric for comparing dry powder inhaler dispersibility."
   visual_caption: "Graphical abstract"
@@ -51,6 +55,7 @@
   details: "75(4): 002153, 2026"
   url: "https://doi.org/10.1099/jmm.0.002153"
   tags: [in vivo, infection biology]
+  projects: [respiratory-infection-biology]
   image: "/images/publications/burkholderia-persistence.png"
   image_alt: "Longitudinal bacterial burdens in lung, liver, and spleen showing strain-specific Burkholderia cenocepacia persistence in a mouse pulmonary infection model."
   visual_caption: "Take-home figure"
@@ -62,6 +67,7 @@
   details: "80(11): 2958–2969, 2025"
   url: "https://doi.org/10.1093/jac/dkaf323"
   tags: [synergy, transport]
+  projects: [spatiotemporal-synergy]
   image: "/images/publications/niclosamide-colistin-mucus.png"
   image_alt: "Mucus selectively slows niclosamide diffusion while leaving colistin diffusion largely unchanged, reducing antibacterial combination activity."
   visual_caption: "Take-home figure"
@@ -73,6 +79,7 @@
   details: "42: 121–133, 2025"
   url: "https://doi.org/10.14356/kona.2025008"
   tags: [particle engineering, review]
+  projects: [protecting-labile-payloads, inhaled-product-performance]
   image: "/images/publications/particle-engineering-strategies.png"
   image_alt: "Graphical abstract comparing milling and spray drying strategies for engineering inhaled drug particles."
   visual_caption: "Graphical abstract"
@@ -95,6 +102,7 @@
   details: "66(9): e00186-22, 2022"
   url: "https://doi.org/10.1128/aac.00186-22"
   tags: [clofazimine, TB, in vivo]
+  projects: [respiratory-infection-biology]
 
 - year: 2022
   authors: "<strong>Brunaugh AD</strong>, Ding L, Wu T, Schneider M, Khalaf R, Smyth HDC"
@@ -103,6 +111,7 @@
   details: "111(2): 403–416, 2022"
   url: "https://doi.org/10.1016/j.xphs.2021.08.022"
   tags: [biologics, particle engineering]
+  projects: [protecting-labile-payloads]
 
 - year: 2021
   authors: "<strong>Brunaugh AD</strong>, Sharma S, Smyth HDC"
@@ -111,6 +120,7 @@
   details: "18(8): 1101–1115, 2021"
   url: "https://doi.org/10.1080/17425247.2021.1886074"
   tags: [synergy, review]
+  projects: [spatiotemporal-synergy]
 
 - year: 2021
   authors: "<strong>Brunaugh AD</strong>, Seo H, Warnken Z, Ding L, Seo SH, Smyth HDC"
@@ -119,6 +129,7 @@
   details: "16(2): e0246803, 2021"
   url: "https://doi.org/10.1371/journal.pone.0246803"
   tags: [niclosamide, particle engineering]
+  projects: [spatiotemporal-synergy, protecting-labile-payloads]
 
 - year: 2019
   authors: "<strong>Brunaugh AD</strong>, Wu T, Kanapuram SR, Smyth HDC"
@@ -127,6 +138,7 @@
   details: "16(10): 4165–4180, 2019"
   url: "https://doi.org/10.1021/acs.molpharmaceut.9b00496"
   tags: [biologics, particle engineering]
+  projects: [protecting-labile-payloads]
 
 - year: 2018
   authors: "<strong>Brunaugh AD</strong>, Smyth HDC"
