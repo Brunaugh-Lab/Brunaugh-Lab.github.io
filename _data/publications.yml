@@ -1,0 +1,151 @@
+- year: 2026
+  authors: "Dechayont B, <strong>Brunaugh AD</strong>"
+  title: "Chitosan Stabilizes Curcumin against Hydrolysis and Potentiates Antimicrobial Activity against Pseudomonas aeruginosa in a pH-Dependent Manner"
+  journal: "ACS Omega"
+  details: "2026"
+  url: "https://doi.org/10.1021/acsomega.6c02415"
+  tags: [synergy, antimicrobial, formulation]
+  image: "/images/publications/curcumin-chitosan-toc.png"
+  image_alt: "Graphical abstract showing pH-dependent chitosan-curcumin binding, curcumin protection, and antimicrobial synergy against Pseudomonas aeruginosa."
+  visual_caption: "Graphical abstract"
+
+- year: 2026
+  authors: "Xia G, Bennette N, Watts AB, <strong>Brunaugh AD</strong>"
+  title: "Mapping a Ternary Carbohydrate Design Space for Stable and Dispersible Protein Dry Powders"
+  journal: "Molecular Pharmaceutics"
+  details: "23(7): 3825–3842, 2026"
+  url: "https://doi.org/10.1021/acs.molpharmaceut.6c00277"
+  tags: [biologics, particle engineering, formulation]
+  image: "/images/publications/protein-carbohydrate-design-space.png"
+  image_alt: "Graphical abstract balancing protein stability and powder dispersibility for pulmonary biologic delivery using ternary carbohydrate formulations."
+  visual_caption: "Graphical abstract"
+
+- year: 2026
+  authors: "Romero-Gonzalez M, Park M, Chen Z, Xia G, Dechayont B, <strong>Brunaugh AD</strong>"
+  title: "Colistin-Stabilized Antisolvent Precipitation Enables Engineering of Microcrystalline Niclosamide for Inhalable Composite Powders"
+  journal: "International Journal of Pharmaceutics"
+  details: "695: 126791, 2026"
+  url: "https://doi.org/10.1016/j.ijpharm.2026.126791"
+  tags: [synergy, particle engineering]
+  image: "/images/publications/niclosamide-colistin-composite.png"
+  image_alt: "Graphical abstract showing colistin-stabilized niclosamide microcrystals engineered into an inhalable composite powder to prolong drug colocalization."
+  visual_caption: "Graphical abstract"
+
+- year: 2026
+  authors: "Xia G, Dechayont B, Che L, Comfort I, <strong>Brunaugh AD</strong>"
+  title: "A Distribution-Based Metric for Quantifying Dispersibility in Dry Powder Inhalers"
+  journal: "Pharmaceutics"
+  details: "18(3): 283, 2026"
+  url: "https://doi.org/10.3390/pharmaceutics18030283"
+  tags: [methods, aerosol science]
+  image: "/images/publications/wasserstein-dispersibility.png"
+  image_alt: "Graphical abstract showing particle-size distributions compressed into a Wasserstein distance metric for comparing dry powder inhaler dispersibility."
+  visual_caption: "Graphical abstract"
+
+- year: 2026
+  authors: "Chen Z, Romero-Gonzalez M, Maser A, Leng R, Caverly LJ, Hershenson M, <strong>Brunaugh AD</strong>"
+  title: "Strain-Specific Persistence of Burkholderia cenocepacia in the C3HeB/FeJ Mouse Model of Pulmonary Infection"
+  journal: "Journal of Medical Microbiology"
+  details: "75(4): 002153, 2026"
+  url: "https://doi.org/10.1099/jmm.0.002153"
+  tags: [in vivo, infection biology]
+  image: "/images/publications/burkholderia-persistence.png"
+  image_alt: "Longitudinal bacterial burdens in lung, liver, and spleen showing strain-specific Burkholderia cenocepacia persistence in a mouse pulmonary infection model."
+  visual_caption: "Take-home figure"
+
+- year: 2025
+  authors: "Romero-Gonzalez M, Park M, Lin W, Caverly LJ, <strong>Brunaugh AD</strong>"
+  title: "Physiologically Informed In Vitro Framework Reveals Context-Dependent Combinatory Activity of Niclosamide–Colistin against Gram-Negative Bacteria"
+  journal: "Journal of Antimicrobial Chemotherapy"
+  details: "80(11): 2958–2969, 2025"
+  url: "https://doi.org/10.1093/jac/dkaf323"
+  tags: [synergy, transport]
+  image: "/images/publications/niclosamide-colistin-mucus.png"
+  image_alt: "Mucus selectively slows niclosamide diffusion while leaving colistin diffusion largely unchanged, reducing antibacterial combination activity."
+  visual_caption: "Take-home figure"
+
+- year: 2025
+  authors: "Romero-Gonzalez M, Crowther J, Ordoubadi M, <strong>Brunaugh AD</strong>"
+  title: "Strategies to Overcome Undesired Physicochemical Changes in Particle Engineering for Inhalation"
+  journal: "KONA Powder and Particle Journal"
+  details: "42: 121–133, 2025"
+  url: "https://doi.org/10.14356/kona.2025008"
+  tags: [particle engineering, review]
+  image: "/images/publications/particle-engineering-strategies.png"
+  image_alt: "Graphical abstract comparing milling and spray drying strategies for engineering inhaled drug particles."
+  visual_caption: "Graphical abstract"
+
+- year: 2023
+  authors: "Warnken Z, Trementozzi A, Martins PP, Parekh J, Koleng JJ, Smyth HDC, <strong>Brunaugh AD</strong>"
+  title: "Development of Low-Cost, Weight-Adjustable Clofazimine Mini-Tablets for Treatment of Tuberculosis in Pediatrics"
+  journal: "European Journal of Pharmaceutical Sciences"
+  details: "187: 106470, 2023"
+  url: "https://doi.org/10.1016/j.ejps.2023.106470"
+  tags: [clofazimine, TB]
+  image: "/images/publications/clofazimine-mini-tablets.png"
+  image_alt: "Graphical abstract showing the development of low-cost clofazimine mini-tablets with weight-adjustable dosing for pediatric tuberculosis treatment."
+  visual_caption: "Graphical abstract"
+
+- year: 2022
+  authors: "<strong>Brunaugh AD</strong>, Walz A, Warnken Z, Pearce C, Munoz Gutierrez J, Koleng JJ, Smyth HDC, Gonzalez-Juarrero M"
+  title: "Respirable Clofazimine Particles Produced by Air Jet Milling Technique Are Efficacious in Treatment of BALB/c Mice with Chronic Mycobacterium tuberculosis Infection"
+  journal: "Antimicrobial Agents and Chemotherapy"
+  details: "66(9): e00186-22, 2022"
+  url: "https://doi.org/10.1128/aac.00186-22"
+  tags: [clofazimine, TB, in vivo]
+
+- year: 2022
+  authors: "<strong>Brunaugh AD</strong>, Ding L, Wu T, Schneider M, Khalaf R, Smyth HDC"
+  title: "Identification of Stability Constraints in the Particle Engineering of an Inhaled Monoclonal Antibody Dried Powder"
+  journal: "Journal of Pharmaceutical Sciences"
+  details: "111(2): 403–416, 2022"
+  url: "https://doi.org/10.1016/j.xphs.2021.08.022"
+  tags: [biologics, particle engineering]
+
+- year: 2021
+  authors: "<strong>Brunaugh AD</strong>, Sharma S, Smyth HDC"
+  title: "Inhaled Fixed-Dose Combination Powders for the Treatment of Respiratory Infections"
+  journal: "Expert Opinion on Drug Delivery"
+  details: "18(8): 1101–1115, 2021"
+  url: "https://doi.org/10.1080/17425247.2021.1886074"
+  tags: [synergy, review]
+
+- year: 2021
+  authors: "<strong>Brunaugh AD</strong>, Seo H, Warnken Z, Ding L, Seo SH, Smyth HDC"
+  title: "Development and Evaluation of Inhalable Composite Niclosamide-Lysozyme Particles: A Broad-Spectrum, Patient-Adaptable Treatment for Coronavirus Infections and Sequalae"
+  journal: "PLOS ONE"
+  details: "16(2): e0246803, 2021"
+  url: "https://doi.org/10.1371/journal.pone.0246803"
+  tags: [niclosamide, particle engineering]
+
+- year: 2019
+  authors: "<strong>Brunaugh AD</strong>, Wu T, Kanapuram SR, Smyth HDC"
+  title: "Effect of Particle Formation Process on Characteristics and Aerosol Performance of Respirable Protein Powders"
+  journal: "Molecular Pharmaceutics"
+  details: "16(10): 4165–4180, 2019"
+  url: "https://doi.org/10.1021/acs.molpharmaceut.9b00496"
+  tags: [biologics, particle engineering]
+
+- year: 2018
+  authors: "<strong>Brunaugh AD</strong>, Smyth HDC"
+  title: "Formulation Techniques for High Dose Dry Powders"
+  journal: "International Journal of Pharmaceutics"
+  details: "547(1–2): 489–498, 2018"
+  url: "https://doi.org/10.1016/j.ijpharm.2018.05.036"
+  tags: [particle engineering, review]
+
+- year: 2018
+  authors: "<strong>Brunaugh A</strong>, Smyth HDC"
+  title: "Process Optimization and Particle Engineering of Micronized Drug Powders via Milling"
+  journal: "Drug Delivery and Translational Research"
+  details: "8(6): 1740–1750, 2018"
+  url: "https://doi.org/10.1007/s13346-017-0444-x"
+  tags: [particle engineering, milling]
+
+- year: 2017
+  authors: "<strong>Brunaugh AD</strong>, Jan SU, Ferrati S, Smyth HDC"
+  title: "Excipient-Free Pulmonary Delivery and Macrophage Targeting of Clofazimine via Air Jet Micronization"
+  journal: "Molecular Pharmaceutics"
+  details: "14(11): 4019–4031, 2017"
+  url: "https://doi.org/10.1021/acs.molpharmaceut.7b00690"
+  tags: [clofazimine, particle engineering]

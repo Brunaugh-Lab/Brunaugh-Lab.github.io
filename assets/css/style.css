@@ -8,6 +8,7 @@
 
 :root {
   --blue: #00274C;
+  --blue-light: #004080;
   --maize: #FFCB05;
   --maize-light: #FFF8E1;
   --gray-50: #FAFAFA;
@@ -542,13 +543,79 @@ li { margin-bottom: 0.35rem; }
 }
 .pub-entry {
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 1.1rem;
   border-left: 3px solid var(--gray-200);
+}
+.pub-entry--featured {
+  padding-left: 0;
+  overflow: hidden;
+  border: 1px solid var(--gray-200);
+  border-left: 4px solid var(--maize);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 39, 76, 0.07);
+}
+.pub-visual {
+  display: block;
+  padding: 1.25rem 1.25rem 0.75rem;
+  border-bottom: 1px solid var(--gray-200);
+  background: var(--gray-50);
+  color: var(--gray-600);
+  text-decoration: none;
+}
+.pub-visual:hover {
+  background: #fff;
+}
+.pub-visual:focus-visible {
+  outline: 3px solid var(--maize);
+  outline-offset: -3px;
+}
+.pub-visual img {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+.pub-visual span {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: right;
+  text-transform: uppercase;
+}
+.pub-content {
+  min-width: 0;
+}
+.pub-entry--featured .pub-content {
+  padding: 1.1rem 1.25rem 1.25rem;
 }
 .pub-entry p {
   margin-bottom: 0.35rem;
   font-size: 0.95rem;
   line-height: 1.6;
+}
+.pub-citation {
+  color: var(--gray-800);
+}
+.pub-title {
+  color: var(--blue);
+  font-weight: 650;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.15em;
+}
+.pub-title:hover {
+  color: var(--blue-light);
+  text-decoration-color: currentColor;
+}
+.pub-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 0.55rem;
 }
 .pub-tags {
   display: flex;
@@ -567,8 +634,28 @@ li { margin-bottom: 0.35rem; }
   text-transform: lowercase;
 }
 .pub-link {
+  flex: 0 0 auto;
   font-size: 0.85rem;
   font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .pub-entry--featured .pub-content {
+    padding: 1rem;
+  }
+  .pub-visual {
+    padding: 0.8rem 0.8rem 0.55rem;
+  }
+  .pub-visual img {
+    max-height: 320px;
+  }
+  .pub-meta {
+    display: block;
+  }
+  .pub-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+  }
 }
 
 /* --- Opportunities --- */
