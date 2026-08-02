@@ -1,4 +1,5 @@
 - year: 2026
+  corresponding: true
   authors: "Dechayont B, <strong>Brunaugh AD</strong>"
   title: "Chitosan Stabilizes Curcumin against Hydrolysis and Potentiates Antimicrobial Activity against Pseudomonas aeruginosa in a pH-Dependent Manner"
   journal: "ACS Omega"
@@ -11,6 +12,7 @@
   visual_caption: "Graphical abstract"
 
 - year: 2026
+  corresponding: true
   authors: "Xia G, Bennette N, Watts AB, <strong>Brunaugh AD</strong>"
   title: "Mapping a Ternary Carbohydrate Design Space for Stable and Dispersible Protein Dry Powders"
   journal: "Molecular Pharmaceutics"
@@ -23,6 +25,7 @@
   visual_caption: "Graphical abstract"
 
 - year: 2026
+  corresponding: true
   authors: "Romero-Gonzalez M, Park M, Chen Z, Xia G, Dechayont B, <strong>Brunaugh AD</strong>"
   title: "Colistin-Stabilized Antisolvent Precipitation Enables Engineering of Microcrystalline Niclosamide for Inhalable Composite Powders"
   journal: "International Journal of Pharmaceutics"
@@ -35,6 +38,7 @@
   visual_caption: "Graphical abstract"
 
 - year: 2026
+  corresponding: true
   authors: "Xia G, Dechayont B, Che L, Comfort I, <strong>Brunaugh AD</strong>"
   title: "A Distribution-Based Metric for Quantifying Dispersibility in Dry Powder Inhalers"
   journal: "Pharmaceutics"
@@ -49,6 +53,7 @@
   visual_caption: "Graphical abstract"
 
 - year: 2026
+  corresponding: true
   authors: "Chen Z, Romero-Gonzalez M, Maser A, Leng R, Caverly LJ, Hershenson M, <strong>Brunaugh AD</strong>"
   title: "Strain-Specific Persistence of Burkholderia cenocepacia in the C3HeB/FeJ Mouse Model of Pulmonary Infection"
   journal: "Journal of Medical Microbiology"
@@ -61,6 +66,7 @@
   visual_caption: "Take-home figure"
 
 - year: 2025
+  corresponding: true
   authors: "Romero-Gonzalez M, Park M, Lin W, Caverly LJ, <strong>Brunaugh AD</strong>"
   title: "Physiologically Informed In Vitro Framework Reveals Context-Dependent Combinatory Activity of Niclosamide–Colistin against Gram-Negative Bacteria"
   journal: "Journal of Antimicrobial Chemotherapy"
@@ -73,6 +79,7 @@
   visual_caption: "Take-home figure"
 
 - year: 2025
+  corresponding: true
   authors: "Romero-Gonzalez M, Crowther J, Ordoubadi M, <strong>Brunaugh AD</strong>"
   title: "Strategies to Overcome Undesired Physicochemical Changes in Particle Engineering for Inhalation"
   journal: "KONA Powder and Particle Journal"
@@ -85,6 +92,7 @@
   visual_caption: "Graphical abstract"
 
 - year: 2023
+  corresponding: true
   authors: "Warnken Z, Trementozzi A, Martins PP, Parekh J, Koleng JJ, Smyth HDC, <strong>Brunaugh AD</strong>"
   title: "Development of Low-Cost, Weight-Adjustable Clofazimine Mini-Tablets for Treatment of Tuberculosis in Pediatrics"
   journal: "European Journal of Pharmaceutical Sciences"

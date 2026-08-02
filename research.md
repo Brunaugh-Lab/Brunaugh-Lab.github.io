@@ -10,6 +10,90 @@ The questions that drive our work fall into three groups, distinguished by the n
 
 The same physics governs all three. [**How we think →**](/approach/)
 
+<div class="research-directory" aria-label="Research topic directory">
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/barrier-cartography/">
+      <img src="/images/research/mucin-diffusion-mismatch.png" alt="Comparison of drug transport through a mucin-containing environment." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Structured barriers</p>
+      <h2><a href="/research/barrier-cartography/">Barrier Cartography</a></h2>
+      <p class="research-topic-question">Where and when does a biological matrix capture a therapeutic?</p>
+      <p>We map spatially heterogeneous binding, transport, and failure to predict how far an intervention can effectively reach.</p>
+      <p class="research-topic-evidence"><a href="https://doi.org/10.1093/jac/dkaf323">Recent paper <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </article>
+
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/mucus-barrier-modulation/">
+      <img src="/images/research/rar-mucus-mechanics-rescue.png" alt="Schematic and measurements describing restoration of mucus transport behavior." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Airway transport</p>
+      <h2><a href="/research/mucus-barrier-modulation/">Mucus Modulation</a></h2>
+      <p class="research-topic-question">Can we reshape a barrier without disabling its protective function?</p>
+      <p>We design interventions that alter mucus mechanics and molecular interactions while preserving the biology the barrier supports.</p>
+      <p class="research-topic-evidence"><a href="/research/mucus-barrier-modulation/">Explore the project →</a></p>
+    </div>
+  </article>
+
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/respiratory-infection-biology/">
+      <img src="/images/research/chronic-infection-kinetics.png" alt="Longitudinal kinetics from a chronic respiratory infection model." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Disease context</p>
+      <h2><a href="/research/respiratory-infection-biology/">Infection Biology</a></h2>
+      <p class="research-topic-question">Which biological contexts determine whether respiratory infection persists?</p>
+      <p>We build physiologically informed models that preserve strain, host, and time-dependent behavior relevant to therapeutic testing.</p>
+      <p class="research-topic-evidence"><a href="https://doi.org/10.1099/jmm.0.002153">Recent paper <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </article>
+
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/spatiotemporal-synergy/">
+      <img src="/images/research/nic-col-graphical-abstract.png" alt="Graphical abstract showing how mucus changes the relative transport of an antimicrobial combination." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Combination therapies</p>
+      <h2><a href="/research/spatiotemporal-synergy/">Antibiotic Synergy</a></h2>
+      <p class="research-topic-question">Do combination partners still meet at an effective ratio after delivery?</p>
+      <p>We connect molecular transport, formulation, and microbial response to engineer synergy that survives changing environments.</p>
+      <p class="research-topic-evidence"><a href="https://doi.org/10.1016/j.ijpharm.2026.126791">Recent paper <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </article>
+
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/protecting-labile-payloads/">
+      <img src="/images/research/protein-formulation-response-surfaces.png" alt="Response surfaces connecting formulation composition with protein stability and powder performance." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Formulation and process</p>
+      <h2><a href="/research/protecting-labile-payloads/">Particle Engineering</a></h2>
+      <p class="research-topic-question">How does a transient process become durable particle architecture?</p>
+      <p>We control component redistribution, phase change, and interfacial organization to protect payloads and create functional powders.</p>
+      <p class="research-topic-evidence"><a href="https://doi.org/10.1021/acs.molpharmaceut.6c00277">Recent paper <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </article>
+
+  <article class="research-topic-card">
+    <a class="research-topic-image" href="/research/inhaled-product-performance/">
+      <img src="/images/research/wasserstein-graphical-abstract.png" alt="Particle-size distributions compared using a distribution-based performance metric." loading="lazy" decoding="async">
+    </a>
+    <div class="research-topic-content">
+      <p class="research-topic-domain">Measurement science</p>
+      <h2><a href="/research/inhaled-product-performance/">Product Performance</a></h2>
+      <p class="research-topic-question">Are we measuring the behavior that actually governs therapeutic performance?</p>
+      <p>We develop instruments, physiologically relevant experiments, and distribution-aware metrics that expose product behavior directly.</p>
+      <p class="research-topic-evidence"><a href="https://doi.org/10.3390/pharmaceutics18030283">Recent paper <span aria-hidden="true">↗</span></a></p>
+    </div>
+  </article>
+</div>
+
+## The Common Framework
+
+The six topics are connected by three transport logics: engaging an existing structured matrix, navigating the depth-stratified respiratory tract, and creating a structured material through a transient process.
+
 ## Soft Matter Transport Logic
 
 Mucus, biofilm matrix, necrotic tissue, and tumor stroma are not passive volumes that drugs diffuse through. They are sticky, capacity-limited matrices that bind drugs interfacially — and once binding capacity exceeds the dose, the drug is captured rather than free. Penetration depth, breakthrough, and time-to-failure are then set by adsorption physics, not classical diffusion.

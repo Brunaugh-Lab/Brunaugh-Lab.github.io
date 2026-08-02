@@ -16,6 +16,71 @@ description: The Brunaugh Lab studies transport in complex, dynamic environments
   </div>
 </section>
 
+<section class="system-overview" aria-labelledby="system-overview-title">
+  <div class="container">
+    <div class="section-heading section-heading--centered">
+      <p class="section-kicker">A shared logic across the lab</p>
+      <h2 id="system-overview-title">Designing for effective reach</h2>
+      <p>Across biological barriers and particle-forming processes, we ask how an intervention changes as it moves through a structured environment — and whether enough remains available at the place and time it must act.</p>
+    </div>
+    <div class="system-map" role="img" aria-label="A therapeutic system enters a structured, changing environment. Diffusion, binding, transformation, and clearance compete across space and time to determine effective reach.">
+      <div class="system-map-stage system-map-stage--system">
+        <span class="system-map-number">01</span>
+        <h3>Therapeutic system</h3>
+        <p>Molecules, particles, formulations</p>
+      </div>
+      <span class="system-map-arrow" aria-hidden="true">→</span>
+      <div class="system-map-stage system-map-stage--environment">
+        <span class="system-map-number">02</span>
+        <h3>Changing environment</h3>
+        <p>Mucus, biofilm, droplets, solution</p>
+      </div>
+      <span class="system-map-arrow" aria-hidden="true">→</span>
+      <div class="system-map-stage system-map-stage--competition">
+        <span class="system-map-number">03</span>
+        <h3>Competing processes</h3>
+        <p>Diffuse · bind · transform · clear</p>
+      </div>
+      <span class="system-map-arrow" aria-hidden="true">→</span>
+      <div class="system-map-stage system-map-stage--reach">
+        <span class="system-map-number">04</span>
+        <h3>Effective reach</h3>
+        <p>Availability where biology occurs</p>
+      </div>
+    </div>
+    <p class="cta-link"><a href="/approach/">Explore how we think →</a></p>
+  </div>
+</section>
+
+<section class="latest-work" aria-labelledby="latest-work-title">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">Latest from the lab</p>
+        <h2 id="latest-work-title">Recent work</h2>
+      </div>
+      <a class="section-link" href="/publications/">All publications →</a>
+    </div>
+    <div class="latest-work-grid">
+      {% assign corresponding_publications = site.data.publications | where: "corresponding", true %}
+      {% for publication in corresponding_publications limit: 3 %}
+      <article class="latest-work-card">
+        {% if publication.image %}
+        <a class="latest-work-image" href="{{ publication.url }}" aria-label="View article: {{ publication.title | escape }}">
+          <img src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}" loading="lazy" decoding="async">
+        </a>
+        {% endif %}
+        <div class="latest-work-content">
+          <p class="latest-work-meta">{{ publication.year }} · {{ publication.journal }}</p>
+          <h3><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+          <a class="card-link" href="{{ publication.url }}">View article <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="snapshot">
   <div class="container">
     <div class="snapshot-grid">
