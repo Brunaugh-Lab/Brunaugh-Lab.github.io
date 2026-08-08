@@ -12,7 +12,7 @@ permalink: /pi/
     <h2>Ashlee D. Brunaugh, PharmD, PhD</h2>
     <p class="title-line">Assistant Professor · Department of Pharmaceutical Sciences · University of Michigan College of Pharmacy</p>
     <p class="contact-line"><strong>Email:</strong> <a href="mailto:brunaugh@umich.edu">brunaugh@umich.edu</a></p>
-    <p class="contact-line"><strong>Office:</strong> 3002 Pharm, College of Pharmacy, 428 Church St, Ann Arbor MI 48109</p>
+    <p class="contact-line"><strong>Office:</strong> 4220 Pharm, College of Pharmacy, 1007 E Huron St, Ann Arbor, MI 48104-1628</p>
     <p class="contact-line"><strong>Phone:</strong> 734-647-9910</p>
     <div class="profile-links">
       <a href="https://scholar.google.com/citations?hl=en&user=ZjobVZgAAAAJ">Google Scholar</a>
