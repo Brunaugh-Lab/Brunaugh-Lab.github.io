@@ -1,0 +1,66 @@
+- name: Dispersibility Analysis Toolkit
+  category: software
+  status: Publication companion
+  status_class: publication
+  language: R
+  subtitle: Quantifying aerosol dispersibility using the Wasserstein distance
+  description: A distribution-sensitive workflow for comparing an inhaler-generated aerosol with a powder's intrinsic dispersion limit using standard laser-diffraction exports.
+  scope: Includes data import, Wasserstein-distance analysis, and publication-ready visualization workflows.
+  repo_url: https://github.com/Brunaugh-Lab/dispersibility-analysis
+  publication_url: https://doi.org/10.3390/pharmaceutics18030283
+  data_url: https://doi.org/10.7302/nwc8-9f06
+
+- name: Oscillatory Rheology Pipeline
+  category: software
+  status: Versioned release · v0.1.0
+  status_class: release
+  language: Python
+  subtitle: Provenance-first analysis of TA Instruments TRIOS exports
+  description: A staged pipeline for ingestion, quality control, feature extraction, and declared group comparisons that retains measurements and records every analytical decision.
+  scope: Supports versioned output packages, explicit study design, trace-level adequacy decisions, and reproducible comparisons.
+  repo_url: https://github.com/Brunaugh-Lab/osc-rheology-pipeline
+  release_url: https://github.com/Brunaugh-Lab/osc-rheology-pipeline/releases/tag/v0.1.0
+  doi_url: https://doi.org/10.5281/zenodo.21813260
+
+- name: IGC Analysis Pipeline
+  category: software
+  status: Versioned research software
+  status_class: release
+  language: Python
+  subtitle: Source-neutral inverse gas chromatography analysis
+  description: A reproducible toolkit for corrected BET surface area, dispersive surface energy, acid-base characterization, full-peak analysis, quality control, and machine-readable run records.
+  scope: Uses an explicit neutral-data contract and reportability gates rather than silently inferring scientific properties or study groups.
+  repo_url: https://github.com/Brunaugh-Lab/igc-analysis-pipeline
+  doi_url: https://doi.org/10.5281/zenodo.21760976
+
+- name: SEM Analysis Pipeline
+  category: software
+  status: Validated release · v0.1.0
+  status_class: release
+  language: Python
+  subtitle: Calibrated and auditable analysis of scanning electron micrographs
+  description: A framework for endpoint-specific SEM analysis with explicit sampling units, abstention rules, known-truth validation, and auditable masks, overlays, and run manifests.
+  scope: The current frozen capability is paired-acquisition external-aggregate aspect ratio; the repository does not imply support for every possible SEM endpoint.
+  repo_url: https://github.com/Brunaugh-Lab/sem-analysis-pipeline
+  release_url: https://github.com/Brunaugh-Lab/sem-analysis-pipeline/releases/tag/v0.1.0
+  doi_url: https://doi.org/10.5281/zenodo.21845096
+
+- name: DiffractoMorph
+  category: software
+  status: Alpha research release · v0.1.0
+  status_class: alpha
+  language: Python
+  subtitle: Time-resolved multichannel light scattering for particle transformation
+  description: An instrument-neutral package for observing particulate systems as they dissolve, reform, or reorganize, with explicit separation of measured signals, empirical descriptors, model-inverted evidence, and independent mass measurements.
+  scope: APIs and schemas may change while additional instrument adapters, calibration workflows, and validation records are developed.
+  repo_url: https://github.com/Brunaugh-Lab/diffractomorph
+
+- name: Instrumentation & Measurement Standards
+  category: documentation
+  status: Public documentation
+  status_class: documentation
+  language: Markdown
+  subtitle: Open measurement conventions from the Brunaugh Lab
+  description: Public, read-only documentation for instrument configuration, metadata, data export, naming conventions, and the conceptual interpretation of measurements.
+  scope: This repository intentionally excludes experimental data, private project materials, and internal coordination records.
+  repo_url: https://github.com/Brunaugh-Lab/Brunaugh-Lab-Instrumentation

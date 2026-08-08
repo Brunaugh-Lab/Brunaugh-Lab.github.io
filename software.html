@@ -6,34 +6,61 @@ description: Open-source software and data from the Brunaugh Lab for transport, 
 permalink: /software/
 ---
 
-<p>We build open-source tools for transport, formulation, and drug delivery research. Released software and supporting data are freely available through <a href="https://github.com/Brunaugh-Lab">GitHub</a>.</p>
+<p>We develop public research software for measurement, analysis, and reproducible scientific inference. Source code, documentation, examples, and versioned releases are available through the <a href="https://github.com/Brunaugh-Lab">Brunaugh Lab GitHub organization</a>.</p>
 
-<!-- Released Tools -->
-<div class="tool-card">
-  <h2>Dispersibility Analysis Toolkit</h2>
-  <p class="tool-subtitle">Quantifying aerosol dispersibility using the Wasserstein distance</p>
-  <p>Standard aerosol characterization collapses rich particle size distribution data into summary statistics that obscure clinically relevant variability. This toolkit implements a distribution-sensitive analytical framework based on the Wasserstein distance (Earth Mover's Distance) to quantify how closely an inhaler-generated aerosol approaches a powder's intrinsic dispersion limit. The metric is formulation-agnostic, physically interpretable, and works with standard laser diffraction data.</p>
-  <div class="tool-meta">
-    <p><strong>Language:</strong> R</p>
-    <p><strong>Publication:</strong> Xia G, Dechayont B, Che L, Comfort I, Brunaugh AD. A distribution-based metric for quantifying dispersibility in dry powder inhalers. <em>Pharmaceutics</em>, 2026.</p>
-    <p><strong>Data:</strong> <a href="https://doi.org/10.7302/nwc8-9f06">Raw laser diffraction datasets (Deep Blue Data)</a></p>
-  </div>
-  <div class="tool-links">
-    <a href="https://github.com/Brunaugh-Lab/dispersibility-analysis" class="btn btn-maize">GitHub Repository →</a>
-  </div>
+<aside class="software-policy" aria-labelledby="software-policy-title">
+  <p class="software-policy-label" id="software-policy-title">Living research software</p>
+  <p>These tools are continuously refined as methods are tested, limitations are identified, and new capabilities are validated. A public repository does not imply that every possible workflow is supported. For reproducible use, record the release version or commit, review the repository's scientific scope and validation notes, and cite an archived release when one is available.</p>
+</aside>
+
+<h2>Public Research Software</h2>
+
+<div class="tool-grid">
+{% assign public_software = site.data.software | where: "category", "software" %}
+{% for tool in public_software %}
+  <article class="tool-card tool-card--compact">
+    <div class="tool-card-header">
+      <span class="tool-status tool-status--{{ tool.status_class }}">{{ tool.status }}</span>
+      <span class="tool-language">{{ tool.language }}</span>
+    </div>
+    <h3>{{ tool.name }}</h3>
+    <p class="tool-subtitle">{{ tool.subtitle }}</p>
+    <p>{{ tool.description }}</p>
+    <p class="tool-scope"><strong>Current scope:</strong> {{ tool.scope }}</p>
+    <div class="tool-links tool-links--inline">
+      <a href="{{ tool.repo_url }}">GitHub <span aria-hidden="true">↗</span></a>
+      {% if tool.release_url %}<a href="{{ tool.release_url }}">Release <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if tool.doi_url %}<a href="{{ tool.doi_url }}">Archived DOI <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if tool.publication_url %}<a href="{{ tool.publication_url }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+      {% if tool.data_url %}<a href="{{ tool.data_url }}">Data <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </article>
+{% endfor %}
 </div>
 
-<!-- In Development -->
+<h2>Open Measurement Standards</h2>
+
+{% assign public_docs = site.data.software | where: "category", "documentation" %}
+{% for tool in public_docs %}
+<article class="tool-card tool-card--documentation">
+  <div class="tool-card-header">
+    <span class="tool-status tool-status--{{ tool.status_class }}">{{ tool.status }}</span>
+    <span class="tool-language">{{ tool.language }}</span>
+  </div>
+  <h3>{{ tool.name }}</h3>
+  <p class="tool-subtitle">{{ tool.subtitle }}</p>
+  <p>{{ tool.description }}</p>
+  <p class="tool-scope"><strong>Boundary:</strong> {{ tool.scope }}</p>
+  <div class="tool-links tool-links--inline">
+    <a href="{{ tool.repo_url }}">Browse documentation <span aria-hidden="true">↗</span></a>
+  </div>
+</article>
+{% endfor %}
+
 <h2 class="coming-soon-heading">In Development</h2>
 
 <div class="tool-card tool-card-soon">
   <h3>bioHLB Toolkit</h3>
   <p>A sequence-informed framework for studying and predicting how proteins partition at biological interfaces. The project is being developed to connect molecular identity with adsorption behavior, competitive surface assembly, and downstream biological fate.</p>
-  <p><em>In active development; methods and code will be released when they are ready for external use.</em></p>
-</div>
-
-<div class="tool-card tool-card-soon">
-  <h3>DiffractoMorph</h3>
-  <p>A measurement and modeling framework for observing particulate systems as they dissolve, reform, or reorganize. DiffractoMorph combines time-resolved angular-scattering measurements with dissolved-phase mass balance, calibrated observation operators, and minimum-sufficient models so that measured changes can be separated from model-dependent interpretations.</p>
-  <p><em>In active development; methods and code will be released after validation.</em></p>
+  <p><em>Methods and code will be released after the external-use boundary and validation requirements are defined.</em></p>
 </div>
