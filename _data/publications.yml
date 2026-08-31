@@ -1,5 +1,18 @@
 - year: 2026
   corresponding: true
+  authors: "Warnken Z, Trementozzi A, Okezue M, Martins PP, Parekh J, Romero-Gonzalez M, Chen Z, Koleng JJ, Smyth HDC, <strong>Brunaugh AD</strong>"
+  title: "Formulation Design Dictates the Pulmonary Delivery and Antimicrobial Efficacy of Clofazimine–Amikacin Combinations against Mycobacterium abscessus"
+  journal: "Molecular Pharmaceutics"
+  details: "2026"
+  url: "https://doi.org/10.1021/acs.molpharmaceut.6c00473"
+  tags: [synergy, particle engineering, infection biology]
+  projects: [spatiotemporal-synergy, inhaled-product-performance, respiratory-infection-biology]
+  image: "/images/publications/clofazimine-amikacin-killing-kinetics.png"
+  image_alt: "Intracellular Mycobacterium abscessus killing over 48 hours for physical mixtures and spray-dried clofazimine–amikacin particles at four drug ratios."
+  visual_caption: "Intracellular killing kinetics"
+
+- year: 2026
+  corresponding: true
   authors: "Dechayont B, <strong>Brunaugh AD</strong>"
   title: "Chitosan Stabilizes Curcumin against Hydrolysis and Potentiates Antimicrobial Activity against Pseudomonas aeruginosa in a pH-Dependent Manner"
   journal: "ACS Omega"
